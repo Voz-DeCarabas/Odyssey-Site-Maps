@@ -37,6 +37,7 @@ async function initialize() {
         className,
         mapId
     );
+    updateHeading();
 
     createToolbar(
         state.filters,
@@ -52,6 +53,25 @@ function render() {
         state.layout,
         state.filters
     );
+}
+
+function updateHeading() {
+
+    const heading =
+        document.getElementById('layoutHeading');
+
+    if (!heading) {
+        return;
+    }
+
+    const layoutName =
+        state.layout?.name || 'Settlement Viewer';
+
+    heading.textContent =
+        layoutName;
+
+    document.title =
+        `${layoutName} - Settlement Viewer`;
 }
 
 function onFilterChanged(type) {
