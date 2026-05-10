@@ -16,10 +16,32 @@
       "shape": "square",
       "color": "#ff3333",
       "size": 24,
-      "x": 420,
-      "y": 350,
+      "x": 321,
+      "y": 142,
       "label": "Security Door",
       "description": "Level 2 clearance required"
+    },
+    {
+      "id": "door_02",
+      "type": "securityDoor",
+      "shape": "square",
+      "color": "#ff3333",
+      "size": 24,
+      "x": 321,
+      "y": 562,
+      "label": "Security Door",
+      "description": "Level 3 clearance required"
+    },
+    {
+      "id": "terminal_01",
+      "type": "terminal",
+      "shape": "circle",
+      "color": "#00ffff",
+      "size": 24,
+      "x": 1152,
+      "y": 343,
+      "label": "Terminal",
+      "description": ""
     }
   ],
   "metadata": {
