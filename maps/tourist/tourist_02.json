@@ -1,0 +1,61 @@
+{
+  "id": "tourist_02",
+  "name": "Tourist Layout 2",
+  "class": "tourist",
+  "version": 1,
+  "image": {
+    "full": "images/full/tourist_02.png",
+    "thumbnail": "images/thumbnails/tourist_02.jpg",
+    "width": 4096,
+    "height": 4096
+  },
+  "floors": [
+    {
+      "id": 0,
+      "name": "Ground Floor"
+    },
+    {
+      "id": 1,
+      "name": "Upper Floor"
+    }
+  ],
+  "spawnPoints": [
+    {
+      "x": 120,
+      "y": 210,
+      "label": "Front Entrance"
+    }
+  ],
+  "markers": [
+    {
+      "id": "secdoor_01",
+      "type": "securityDoor",
+      "x": 420,
+      "y": 350,
+      "floor": 0,
+      "label": "Security Door",
+      "description": "Level 2 clearance required"
+    }
+  ],
+  "routes": [
+    {
+      "id": "patrol_01",
+      "type": "guardPatrol",
+      "points": [
+        {
+          "x": 200,
+          "y": 300
+        },
+        {
+          "x": 400,
+          "y": 300
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "Atlas Team",
+    "updated": "2026-05-09",
+    "game": "Elite Dangerous Odyssey"
+  }
+}

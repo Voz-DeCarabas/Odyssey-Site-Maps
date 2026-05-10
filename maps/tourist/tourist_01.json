@@ -1,0 +1,30 @@
+{
+  "id": "tourist_01",
+  "name": "Tourist Layout 1",
+  "class": "tourist",
+  "version": 1,
+  "image": {
+    "full": "images/full/tourist_01.png",
+    "thumbnail": "images/thumbnails/tourist_01.jpg",
+    "width": 4096,
+    "height": 4096
+  },
+  "markers": [
+    {
+      "id": "door_01",
+      "type": "securityDoor",
+      "shape": "square",
+      "color": "#ff3333",
+      "size": 24,
+      "x": 420,
+      "y": 350,
+      "label": "Security Door",
+      "description": "Level 2 clearance required"
+    }
+  ],
+  "metadata": {
+    "author": "Atlas Team",
+    "updated": "2026-05-09",
+    "game": "Elite Dangerous Odyssey"
+  }
+}
