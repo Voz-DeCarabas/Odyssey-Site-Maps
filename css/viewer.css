@@ -1,6 +1,7 @@
 body {
 
     user-select: none;
+    background: #101010;
 }
 
 #overlay {
