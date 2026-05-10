@@ -9,3 +9,6 @@ Additional elements that I plan to add to maps
 - Data ports.
 - Powerplay containers.
 - ?
+
+
+Much of the code used here is coming from various AI tools and I am using this as an opportunity to learn some new skills and hopefully add back to the Elite Dangerous player community.
