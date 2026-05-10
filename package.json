@@ -1,0 +1,12 @@
+{
+  "name": "odyssey-site-maps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight build and test workflow for Odyssey Site Maps",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "npm run test && npm run build"
+  }
+}
