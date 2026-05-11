@@ -13,12 +13,12 @@ import {
 const state = {
 
     filters: {
-        securityDoor: true,
+        securityDoor: false,
         dataPort: true,
         terminal: true,
-        elevator: true,
+        power: true,
         alarmPanel: true,
-        loot: true
+        container: false
     },
 
     layout: null
