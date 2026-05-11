@@ -57,6 +57,30 @@
       "z": 1,
       "label": "Hint",
       "description": "Scan through window for L3 access"
+    },
+    {
+      "id": "power_01",
+      "type": "power",
+      "shape": "hexagon",
+      "color": "#16ac09",
+      "size": 24,
+      "x": 1230,
+      "y": 345,
+      "z": 0,
+      "label": "Power",
+      "description": "Scan through window for L3 access"
+    },
+    {
+      "id": "container_01",
+      "type": "container",
+      "shape": "diamond",
+      "color": "#ffff00",
+      "size": 24,
+      "x": 1055,
+      "y": 360,
+      "z": 0,
+      "label": "Powerplay Container",
+      "description": ""
     }
   ],
   "metadata": {
