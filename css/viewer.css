@@ -84,6 +84,54 @@ body {
     z-index: 1000;
 }
 
+.markerKey {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 16px;
+    z-index: 1000;
+    color: white;
+    font-size: 14px;
+    min-width: 120px;
+}
+
+.markerKeyItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.markerKeySymbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    background: #0f02fa;
+    border: 3px solid white;
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+}
+
+.markerKeySymbol.z0 {
+    border-color: #00000000;
+}
+
+.markerKeySymbol.z1 {
+    border-color: #ffffff;
+}
+
+.markerKeySymbol.z2 {
+    border-color: #ff0000;
+}
+
 .toolbarButton {
     border: 1px solid #555;
 

@@ -55,25 +55,11 @@ async function initialize() {
         toolbar.style.top = 'auto';
         toolbar.style.right = 'auto';
         toolbar.style.flexDirection = 'row';
-    } else if (position === 'bottom-right') {
-        toolbar.style.right = '20px';
-        toolbar.style.left = 'auto';
-        toolbar.style.bottom = '20px';
-        toolbar.style.top = 'auto';
-        toolbar.style.transform = 'none';
-        toolbar.style.flexDirection = 'row';
     } else if (position === 'left-vertical') {
         toolbar.style.left = '20px';
         toolbar.style.bottom = '20px';
         toolbar.style.top = 'auto';
         toolbar.style.right = 'auto';
-        toolbar.style.transform = 'none';
-        toolbar.style.flexDirection = 'column';
-    } else if (position === 'right-vertical') {
-        toolbar.style.right = '20px';
-        toolbar.style.left = 'auto';
-        toolbar.style.bottom = '20px';
-        toolbar.style.top = 'auto';
         toolbar.style.transform = 'none';
         toolbar.style.flexDirection = 'column';
     } else {
@@ -86,7 +72,57 @@ async function initialize() {
         toolbar.style.flexDirection = 'row';
     }
 
+    positionMarkerKey(state.layout.keyPosition || 'top-right');
+
     render();
+}
+
+function positionMarkerKey(position) {
+    const key = document.getElementById('markerKey');
+    if (!key) {
+        return;
+    }
+
+    key.style.top = 'auto';
+    key.style.bottom = 'auto';
+    key.style.left = 'auto';
+    key.style.right = 'auto';
+    key.style.transform = 'none';
+
+    switch (position) {
+        case 'top-left':
+            key.style.top = '20px';
+            key.style.left = '20px';
+            break;
+        case 'top-right':
+            key.style.top = '20px';
+            key.style.right = '20px';
+            break;
+        case 'bottom-left':
+            key.style.bottom = '20px';
+            key.style.left = '20px';
+            break;
+        case 'bottom-center':
+            key.style.bottom = '20px';
+            key.style.left = '50%';
+            key.style.transform = 'translateX(-50%)';
+            break;
+        case 'bottom-right':
+            key.style.bottom = '20px';
+            key.style.right = '20px';
+            break;
+        case 'left-vertical':
+            key.style.bottom = '20px';
+            key.style.left = '20px';
+            break;
+        case 'right-vertical':
+            key.style.bottom = '20px';
+            key.style.right = '20px';
+            break;
+        default:
+            key.style.top = '20px';
+            key.style.right = '20px';
+    }
 }
 
 function render() {
