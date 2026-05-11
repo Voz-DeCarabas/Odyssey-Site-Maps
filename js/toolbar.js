@@ -20,19 +20,19 @@ const BUTTONS = [
 
     {
         type: 'alarmPanel',
-        label: '▲ Alarms',
+        label: '▲ Alarm',
         color: '#ffaa00'
     },
 
     {
-        type: 'loot',
-        label: '◆ Loot',
+        type: 'container',
+        label: '◆ Powerplay Container',
         color: '#ffff00'
     },
 
     {
-        type: 'elevator',
-        label: '⬢ Elevators',
+        type: 'power',
+        label: '⬢ Power',
         color: '#cc66ff'
     }
 ];
