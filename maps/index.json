@@ -2,49 +2,49 @@
   "tourist": [
     {
       "id": "tourist_01",
-      "name": "Tourist Layout 1",
+      "name": "Tourist 1",
       "thumbnail": "images/thumbnails/tourist_01.png"
     },
     {
       "id": "tourist_02",
-      "name": "Tourist Layout 2",
+      "name": "Tourist 2",
       "thumbnail": "images/thumbnails/tourist_02.png"
     },
     {
       "id": "tourist_03",
-      "name": "Tourist Layout 3",
+      "name": "Tourist 3",
       "thumbnail": "images/thumbnails/tourist_03.png"
     },
     {
       "id": "tourist_04",
-      "name": "Tourist Layout 4",
+      "name": "Tourist 4",
       "thumbnail": "images/thumbnails/tourist_04.png"
     }
   ],
   "agriculture": [
     {
       "id": "agriculture_01",
-      "name": "Agriculture Layout 1",
+      "name": "Agriculture 1",
       "thumbnail": "images/thumbnails/agriculture_01.png"
     }, 
     {
       "id": "agriculture_02",
-      "name": "Agriculture Layout 2",
+      "name": "Agriculture 2",
       "thumbnail": "images/thumbnails/agriculture_02.png"
     }, 
     {
       "id": "agriculture_03",
-      "name": "Agriculture Layout 3",
+      "name": "Agriculture 3",
       "thumbnail": "images/thumbnails/agriculture_03.png"
     }  , 
     {
       "id": "agriculture_04",
-      "name": "Agriculture Layout 4",
+      "name": "Agriculture 4",
       "thumbnail": "images/thumbnails/agriculture_04.png"
     }  , 
     {
       "id": "agriculture_05",
-      "name": "Agriculture Layout 5",
+      "name": "Agriculture 5",
       "thumbnail": "images/thumbnails/agriculture_05.png"
     }  
 
@@ -52,103 +52,103 @@
   "military": [
     {
       "id": "military_01",
-      "name": "Military Layout 1",
+      "name": "Military 1",
       "thumbnail": "images/thumbnails/military_01.png"
     }, 
     {
       "id": "military_02",
-      "name": "Military Layout 2",
+      "name": "Military 2",
       "thumbnail": "images/thumbnails/military_02.png"
     }, 
     {
       "id": "military_03",
-      "name": "Military Layout 3",
+      "name": "Military 3",
       "thumbnail": "images/thumbnails/military_03.png"
     }  , 
     {
       "id": "military_04",
-      "name": "Military Layout 4",
+      "name": "Military 4",
       "thumbnail": "images/thumbnails/military_04.png"
     }  , 
     {
       "id": "military_05",
-      "name": "Military Layout 5",
+      "name": "Military 5",
       "thumbnail": "images/thumbnails/military_05.png"
     }
   ],
   "industrial": [
     {
       "id": "industrial_01",
-      "name": "Industrial Layout 1",
+      "name": "Industrial 1",
       "thumbnail": "images/thumbnails/industrial_01.png"
     }, 
     {
       "id": "industrial_02",
-      "name": "Industrial Layout 2",
+      "name": "Industrial 2",
       "thumbnail": "images/thumbnails/industrial_02.png"
     }, 
     {
       "id": "industrial_03",
-      "name": "Industrial Layout 3",
+      "name": "Industrial 3",
       "thumbnail": "images/thumbnails/industrial_03.png"
     }, 
     {
       "id": "industrial_04",
-      "name": "Industrial Layout 4",
+      "name": "Industrial 4",
       "thumbnail": "images/thumbnails/industrial_04.png"
     }, 
     {
       "id": "industrial_05",
-      "name": "Industrial Layout 5",
+      "name": "Industrial 5",
       "thumbnail": "images/thumbnails/industrial_05.png"
     }
   ],
   "extraction": [
     {
       "id": "extraction_01",
-      "name": "Extraction Layout 1",
+      "name": "Extraction 1",
       "thumbnail": "images/thumbnails/extraction_01.png"
     }, 
     {
       "id": "extraction_02",
-      "name": "Extraction Layout 2",
+      "name": "Extraction 2",
       "thumbnail": "images/thumbnails/extraction_02.png"
     }, 
     {
       "id": "extraction_03",
-      "name": "Extraction Layout 3",
+      "name": "Extraction 3",
       "thumbnail": "images/thumbnails/extraction_03.png"
     }, 
     {
       "id": "extraction_04",
-      "name": "Extraction Layout 4",
+      "name": "Extraction 4",
       "thumbnail": "images/thumbnails/extraction_04.png"
     } , 
     {
       "id": "extraction_05",
-      "name": "Extraction Layout 5",
+      "name": "Extraction 5",
       "thumbnail": "images/thumbnails/extraction_05.png"
     }
   ],
   "hightech": [
     {
       "id": "hightech_01",
-      "name": "High-Tech Layout 1",
+      "name": "High-Tech 1",
       "thumbnail": "images/thumbnails/high_tech_01.png"
     }, 
     {
       "id": "hightech_02",
-      "name": "High-Tech Layout 2",
+      "name": "High-Tech 2",
       "thumbnail": "images/thumbnails/high_tech_02.png"
     }, 
     {
       "id": "hightech_03",
-      "name": "High-Tech Layout 3",
+      "name": "High-Tech 3",
       "thumbnail": "images/thumbnails/high_tech_03.png"
     }, 
     {
       "id": "hightech_04",
-      "name": "High-Tech Layout 4",
+      "name": "High-Tech 4",
       "thumbnail": "images/thumbnails/high_tech_04.png"
     } 
   ]

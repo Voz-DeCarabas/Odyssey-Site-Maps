@@ -15,10 +15,10 @@ const state = {
     filters: {
         securityDoor: false,
         dataPort: true,
-        terminal: true,
-        power: true,
+        terminal: false,
+        power: false,
         alarmPanel: true,
-        container: false,
+        container: true,
         hint: false
     },
 

@@ -2,11 +2,57 @@ import {
     loadIndex
 } from './maps.js';
 
+let selectedType = 'all';
+let currentIndex = null;
+
 async function initialize() {
 
-    const index = await loadIndex();
+    currentIndex = await loadIndex();
 
-    renderSections(index);
+    renderSiteTypeSelector(currentIndex);
+    renderSections(currentIndex);
+}
+
+function renderSiteTypeSelector(index) {
+
+    const selector =
+        document.getElementById('siteTypeSelector');
+
+    selector.innerHTML = '';
+
+    const types = ['all',
+        ...Object.keys(index)
+    ];
+
+    types.forEach(type => {
+
+        const button =
+            document.createElement('button');
+
+        button.className = 'siteTypeButton';
+
+        if (selectedType === type) {
+            button.classList.add('active');
+        }
+
+        button.textContent =
+            type === 'all'
+                ? 'All Sites'
+                : formatName(type);
+
+        button.addEventListener('click', () => {
+
+            if (selectedType === type) {
+                return;
+            }
+
+            selectedType = type;
+            renderSiteTypeSelector(index);
+            renderSections(index);
+        });
+
+        selector.appendChild(button);
+    });
 }
 
 function renderSections(index) {
@@ -14,41 +60,52 @@ function renderSections(index) {
     const content =
         document.getElementById('content');
 
-    Object.entries(index).forEach(
-        ([className, layouts]) => {
+    content.innerHTML = '';
 
-            const section =
-                document.createElement('section');
+    const entries =
+        selectedType === 'all'
+            ? Object.entries(index)
+            : [[selectedType,
+                index[selectedType] || []]];
 
-            section.className = 'section';
+    entries.forEach(([className,
+        layouts]) => {
 
-            const title =
-                document.createElement('h2');
-
-            title.className = 'sectionTitle';
-
-            title.textContent = formatName(className);
-
-            section.appendChild(title);
-
-            const grid =
-                document.createElement('div');
-
-            grid.className = 'thumbnailGrid';
-
-            layouts.forEach(layout => {
-
-                const thumb =
-                    createThumbnail(layout, className);
-
-                grid.appendChild(thumb);
-            });
-
-            section.appendChild(grid);
-
-            content.appendChild(section);
+        if (!layouts || layouts.length === 0) {
+            return;
         }
-    );
+
+        const section =
+            document.createElement('section');
+
+        section.className = 'section';
+
+        const title =
+            document.createElement('h2');
+
+        title.className = 'sectionTitle';
+
+        title.textContent = formatName(className);
+
+        section.appendChild(title);
+
+        const grid =
+            document.createElement('div');
+
+        grid.className = 'thumbnailGrid';
+
+        layouts.forEach(layout => {
+
+            const thumb =
+                createThumbnail(layout, className);
+
+            grid.appendChild(thumb);
+        });
+
+        section.appendChild(grid);
+
+        content.appendChild(section);
+    });
 }
 
 function createThumbnail(layout, className) {

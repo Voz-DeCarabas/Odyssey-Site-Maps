@@ -45,8 +45,23 @@ body {
 
     box-shadow:
         0 0 6px rgba(0,0,0,0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgba(0,0,0,0.8);
 }
 
+.markerZ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
 #toolbar {
     position: fixed;
 
@@ -109,4 +124,17 @@ body {
     border-radius: 12px;
 
     z-index: 1000;
+}
+
+.markerImage {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.markerImage img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid #555;
 }

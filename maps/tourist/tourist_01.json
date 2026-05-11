@@ -1,6 +1,6 @@
 {
   "id": "tourist_01",
-  "name": "Tourist Layout 1",
+  "name": "Tourist 1",
   "class": "tourist",
   "version": 1,
   "image": {
@@ -13,8 +13,8 @@
     {
       "id": "door_01",
       "type": "securityDoor",
-      "shape": "square",
       "color": "#ff3333",
+      "securityLevel": 2,
       "size": 24,
       "x": 321,
       "y": 142,
@@ -25,7 +25,7 @@
     {
       "id": "door_02",
       "type": "securityDoor",
-      "shape": "square",
+      "securityLevel": 3,
       "color": "#ff3333",
       "size": 24,
       "x": 321,
@@ -37,7 +37,6 @@
     {
       "id": "terminal_01",
       "type": "terminal",
-      "shape": "circle",
       "color": "#00ffff",
       "size": 24,
       "x": 1152,
@@ -49,20 +48,19 @@
     {
       "id": "hint_01",
       "type": "hint",
-      "shape": "circle",
       "color": "#16ac09",
       "size": 24,
       "x": 1220,
       "y": 376,
       "z": 1,
       "label": "Hint",
-      "description": "Scan through window for L3 access"
+      "description": "Scan through window for L3 access",
+      "image": "images/other/scan_10.png"
     },
     {
       "id": "power_01",
       "type": "power",
-      "shape": "hexagon",
-      "color": "#16ac09",
+      "color": "#cc66ff",
       "size": 24,
       "x": 1230,
       "y": 345,
@@ -73,7 +71,6 @@
     {
       "id": "container_01",
       "type": "container",
-      "shape": "diamond",
       "color": "#ffff00",
       "size": 24,
       "x": 1055,

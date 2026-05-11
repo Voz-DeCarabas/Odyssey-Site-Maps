@@ -2,7 +2,7 @@ const BUTTONS = [
 
     {
         type: 'securityDoor',
-        label: '■ Doors',
+        label: '● Doors',
         color: '#ff3333'
     },
 
@@ -20,24 +20,24 @@ const BUTTONS = [
 
     {
         type: 'alarmPanel',
-        label: '▲ Alarm',
+        label: '● Alarm',
         color: '#ffaa00'
     },
 
     {
         type: 'container',
-        label: '◆ Powerplay Container',
+        label: '● Powerplay Container',
         color: '#ffff00'
     },
 
     {
         type: 'power',
-        label: '⬢ Power',
+        label: '● Power',
         color: '#cc66ff'
     },
     {
         type: 'hint',
-        label: '⬢ Hint',
+        label: '● Hint',
         color: '#16ac09'
     }
 ];
