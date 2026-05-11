@@ -2,6 +2,7 @@
   "id": "extraction_02",
   "name": "Extraction 2",
   "class": "extraction",
+  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/extraction_02.png",

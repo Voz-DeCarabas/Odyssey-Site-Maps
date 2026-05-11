@@ -26,15 +26,15 @@ const BUTTONS = [
 
     {
         type: 'container',
-        label: '● Powerplay Container',
+        label: '● PP Container',
         color: '#ffff00'
     },
 
-    {
-        type: 'power',
-        label: '● Power',
-        color: '#cc66ff'
-    },
+    // {
+    //     type: 'power',
+    //     label: '● Power',
+    //     color: '#cc66ff'
+    // },
     {
         type: 'hint',
         label: '● Hint',

@@ -32,16 +32,16 @@ export function createMarker(marker) {
     // Border
     switch (marker.z) {
         case 0:
-            div.style.border = '4px solid #000000';
+            div.style.border = '0px solid #000000';
             break;
         case 1:
-            div.style.border = '4px solid #ff0000';
+            div.style.border = '4px solid #000000';
             break;
         case 2:
-            div.style.border = '4px solid rgb(253, 0, 241)';
+            div.style.border = '4px solid rgb(253, 0, 0)';
             break;    
         default:
-            div.style.border = '4px solid rgb(0, 0, 0)';
+            div.style.border = '0px solid rgb(0, 0, 0)';
     }
 
     // Accessibility

@@ -2,6 +2,7 @@
   "id": "tourist_01",
   "name": "Tourist 1",
   "class": "tourist",
+  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/tourist_01.png",
@@ -13,7 +14,7 @@
     {
       "id": "door_01",
       "type": "securityDoor",
-      "color": "#ff3333",
+      "color": "#0f02fa",
       "securityLevel": 2,
       "size": 24,
       "x": 321,
@@ -26,7 +27,7 @@
       "id": "door_02",
       "type": "securityDoor",
       "securityLevel": 3,
-      "color": "#ff3333",
+      "color": "#0f02fa",
       "size": 24,
       "x": 321,
       "y": 562,
@@ -37,7 +38,7 @@
     {
       "id": "terminal_01",
       "type": "terminal",
-      "color": "#00ffff",
+      "color": "#5afa57",
       "size": 24,
       "x": 1152,
       "y": 343,
@@ -48,7 +49,7 @@
     {
       "id": "hint_01",
       "type": "hint",
-      "color": "#16ac09",
+      "color": "#6b7fff",
       "size": 24,
       "x": 1220,
       "y": 376,
@@ -58,20 +59,20 @@
       "image": "images/other/scan_10.png"
     },
     {
-      "id": "power_01",
-      "type": "power",
-      "color": "#cc66ff",
+      "id": "alarm_01",
+      "type": "alarmPanel",
+      "color": "#f0fc05",
       "size": 24,
       "x": 1230,
       "y": 345,
-      "z": 0,
-      "label": "Power",
-      "description": "Scan through window for L3 access"
+      "z": 1,
+      "label": "Alarm",
+      "description": ""
     },
     {
       "id": "container_01",
       "type": "container",
-      "color": "#ffff00",
+      "color": "#cc66ff",
       "size": 24,
       "x": 1055,
       "y": 360,

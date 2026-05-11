@@ -2,6 +2,7 @@
   "id": "military_01",
   "name": "Military 1",
   "class": "military",
+  "toolbarPosition": "bottom-right",
   "version": 1,
   "image": {
     "full": "images/full/military_01.png",
