@@ -20,13 +20,13 @@ const BUTTONS = [
 
     {
         type: 'alarmPanel',
-        label: '● Alarm',
+        label: '● Alarm Panel',
         color: '#f0fc05'
     },
 
     {
         type: 'container',
-        label: '● PP Container',
+        label: '● PP Containers',
         color: '#cc66ff'
     },
 
@@ -37,7 +37,7 @@ const BUTTONS = [
     // },
     {
         type: 'hint',
-        label: '● Hint',
+        label: '● Hints',
         color: '#16ac09'
     }
 ];
