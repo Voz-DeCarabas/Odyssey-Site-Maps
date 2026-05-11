@@ -1,11 +1,11 @@
 {
-  "id": "tourist_02",
-  "name": "Tourist 2",
-  "class": "tourist",
+  "id": "agriculture_03",
+  "name": "Agriculture 3",
+  "class": "agriculture",
   "version": 1,
   "image": {
-    "full": "images/full/tourist_02.png",
-    "thumbnail": "images/thumbnails/tourist_02.jpg",
+    "full": "images/full/agriculture_03.png",
+    "thumbnail": "images/thumbnails/agriculture_03.jpg",
     "width": 4096,
     "height": 4096
   },

@@ -1,11 +1,11 @@
 {
-  "id": "tourist_02",
-  "name": "Tourist 2",
-  "class": "tourist",
+  "id": "extraction_03",
+  "name": "Extraction 3",
+  "class": "extraction",
   "version": 1,
   "image": {
-    "full": "images/full/tourist_02.png",
-    "thumbnail": "images/thumbnails/tourist_02.jpg",
+    "full": "images/full/extraction_03.png",
+    "thumbnail": "images/thumbnails/extraction_03.jpg",
     "width": 4096,
     "height": 4096
   },

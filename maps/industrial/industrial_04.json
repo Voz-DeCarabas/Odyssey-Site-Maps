@@ -1,11 +1,11 @@
 {
-  "id": "tourist_02",
-  "name": "Tourist 2",
-  "class": "tourist",
+  "id": "industrial_04",
+  "name": "Industrial 4",
+  "class": "industrial",
   "version": 1,
   "image": {
-    "full": "images/full/tourist_02.png",
-    "thumbnail": "images/thumbnails/tourist_02.jpg",
+    "full": "images/full/industrial_04.png",
+    "thumbnail": "images/thumbnails/industrial_04.jpg",
     "width": 4096,
     "height": 4096
   },

@@ -1,11 +1,11 @@
 {
-  "id": "tourist_02",
-  "name": "Tourist 2",
-  "class": "tourist",
+  "id": "high_Tech_05",
+  "name": "High Tech 5",
+  "class": "high_tech",
   "version": 1,
   "image": {
-    "full": "images/full/tourist_02.png",
-    "thumbnail": "images/thumbnails/tourist_02.jpg",
+    "full": "images/full/high_tech_05.png",
+    "thumbnail": "images/thumbnails/high_tech_05.jpg",
     "width": 4096,
     "height": 4096
   },
