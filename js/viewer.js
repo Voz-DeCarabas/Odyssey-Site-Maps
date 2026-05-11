@@ -18,7 +18,8 @@ const state = {
         terminal: true,
         power: true,
         alarmPanel: true,
-        container: false
+        container: false,
+        hint: false
     },
 
     layout: null

@@ -18,6 +18,21 @@ export function createMarker(marker) {
     div.style.backgroundColor =
         marker.color || '#ffffff';
 
+    // Border
+    switch (marker.z) {
+        case 0:
+            div.style.border = '2px solid #000000';
+            break;
+        case 1:
+            div.style.border = '2px solid #ff0000';
+            break;
+        case 2:
+            div.style.border = '2px solid rgb(253, 0, 241)';
+            break;    
+        default:
+            div.style.border = '2px solid rgb(0, 0, 0)';
+    }
+
     // Shape
     applyShape(div, marker);
 

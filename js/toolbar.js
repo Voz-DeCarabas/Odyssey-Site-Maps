@@ -34,6 +34,11 @@ const BUTTONS = [
         type: 'power',
         label: '⬢ Power',
         color: '#cc66ff'
+    },
+    {
+        type: 'hint',
+        label: '⬢ Hint',
+        color: '#16ac09'
     }
 ];
 
@@ -96,7 +101,7 @@ export function createToolbar(
     backButton.className =
         'toolbarButton';
 
-    backButton.innerHTML = '← Maps';
+    backButton.innerHTML = '← Map Browser';
 
     backButton.addEventListener('click', () => {
 
