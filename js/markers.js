@@ -52,6 +52,9 @@ export function createMarker(marker) {
             div.style.border = '0px solid rgba(0, 0, 0, 0)';
     }
 
+    // Shape
+    applyShape(div, marker);
+
     // Accessibility
     div.title = marker.label || '';
 
@@ -89,6 +92,12 @@ export function createLabel(label) {
     div.textContent = label.text;
 
     return div;
+}
+
+function applyShape(div, marker) {
+
+    // Use circles for all markers for simplicity.
+    div.style.borderRadius = '50%';
 }
 
 

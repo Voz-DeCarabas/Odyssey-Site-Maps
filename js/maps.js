@@ -11,9 +11,18 @@ export async function loadLayout(
     layoutId
 ) {
 
-    const response = await fetch(
-        `maps/${className}/${layoutId}.json`
-    );
+    try {
+        const response = await fetch(
+            `maps/${className}/${layoutId}.json`
+        );
 
-    return await response.json();
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.error('Error loading layout:', error);
+        return null;
+    }
 }

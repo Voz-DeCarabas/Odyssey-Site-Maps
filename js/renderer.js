@@ -11,7 +11,14 @@ export function renderMap(layout, filters) {
     const overlay =
         document.getElementById('overlay');
 
+    const viewer =
+        document.getElementById('viewer');
+
     image.src = layout.image.full;
+
+    // Set viewer size to match image
+    viewer.style.width = `${layout.image.width}px`;
+    viewer.style.height = `${layout.image.height}px`;
 
     overlay.innerHTML = '';
 

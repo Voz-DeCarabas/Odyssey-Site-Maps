@@ -39,6 +39,11 @@ async function initialize() {
         className,
         mapId
     );
+
+    if (!state.layout) {
+        console.error('Failed to load layout');
+        return;
+    }
     updateHeading();
 
     createToolbar(
