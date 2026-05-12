@@ -1,5 +1,6 @@
 import {
-    createMarker
+    createMarker,
+    createLabel
 } from './markers.js';
 
 export function renderMap(layout, filters) {
@@ -24,4 +25,11 @@ export function renderMap(layout, filters) {
 
         overlay.appendChild(element);
     });
+
+    if (layout.labels) {
+        layout.labels.forEach(label => {
+            const element = createLabel(label);
+            overlay.appendChild(element);
+        });
+    }
 }

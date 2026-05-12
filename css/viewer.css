@@ -110,8 +110,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     color: white;
     font-weight: bold;
@@ -165,11 +165,19 @@ body {
 
     color: white;
 
-    padding: 20px;
+    padding: 10px;
 
     border-radius: 12px;
 
     z-index: 1000;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: inherit;
+    pointer-events: none;
 }
 
 .markerImage {

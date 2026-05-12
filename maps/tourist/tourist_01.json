@@ -6,29 +6,28 @@
   "version": 1,
   "image": {
     "full": "images/full/tourist_01.png",
-    "thumbnail": "images/thumbnails/tourist_01.jpg",
     "width": 4096,
     "height": 4096
   },
   "markers": [
     {
-      "id": "door_01",
-      "type": "securityDoor",
+      "id": "airlock_01",
+      "type": "airlock",
       "color": "#0f02fa",
       "securityLevel": 2,
-      "size": 24,
+      "size": 20,
       "x": 321,
       "y": 142,
       "z": 0,
-      "label": "Security Door",
+      "label": "Secured Airlock",
       "description": "Level 2 clearance required"
     },
     {
-      "id": "door_02",
+      "id": "door_01",
       "type": "securityDoor",
       "securityLevel": 3,
-      "color": "#0f02fa",
-      "size": 24,
+      "color": "#02c2f7",
+      "size": 20,
       "x": 321,
       "y": 562,
       "z": 2,
@@ -39,10 +38,65 @@
       "id": "terminal_01",
       "type": "terminal",
       "color": "#5afa57",
-      "size": 24,
-      "x": 1152,
-      "y": 343,
-      "z": 1,
+      "size": 20,
+      "x": 897,
+      "y": 361,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_02",
+      "type": "terminal",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 554,
+      "y": 354,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_03",
+      "type": "terminal",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 316,
+      "y": 159,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_04",
+      "type": "terminal",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 342,
+      "y": 325,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_05",
+      "type": "terminal",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 342,
+      "y": 345,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_06",
+      "type": "terminal",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 897,
+      "y": 361,
+      "z": 0,
       "label": "Terminal",
       "description": ""
     },
@@ -50,7 +104,7 @@
       "id": "hint_01",
       "type": "hint",
       "color": "#16ac09",
-      "size": 24,
+      "size": 20,
       "x": 1220,
       "y": 376,
       "z": 1,
@@ -59,10 +113,24 @@
       "image": "images/other/scan_10.png"
     },
     {
+      "id": "hint_02",
+      "type": "hint",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 260,
+      "y": 330,
+      "z": 0,
+      "label": "Hint",
+      "popupX": 240,
+      "popupY": 320,
+      "description": "80 lockers across the site but only 2 data ports"
+
+    },
+    {
       "id": "alarm_01",
       "type": "alarmPanel",
       "color": "#f0fc05",
-      "size": 24,
+      "size": 20,
       "x": 1230,
       "y": 345,
       "z": 1,
@@ -72,13 +140,20 @@
     {
       "id": "container_01",
       "type": "container",
-      "color": "#cc66ff",
-      "size": 24,
+      "color": "#d840e6",
+      "size": 20,
       "x": 1055,
       "y": 360,
       "z": 0,
       "label": "Powerplay Container",
       "description": ""
+    }
+  ],
+  "labels": [
+    {
+      "x": 1225,
+      "y": 290,
+      "text": "PWR"
     }
   ],
   "metadata": {

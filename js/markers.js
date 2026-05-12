@@ -9,7 +9,7 @@ export function createMarker(marker) {
     div.style.top = `${marker.y}px`;
 
     // Size
-    const size = marker.size || 24;
+    const size = marker.size || 20;
 
     div.style.width = `${size}px`;
     div.style.height = `${size}px`;
@@ -18,16 +18,24 @@ export function createMarker(marker) {
     div.style.backgroundColor =
         marker.color || '#ffffff';
 
-    // Text label for securitylevel value only on security doors
-    if (marker.type === 'securityDoor' && marker.securityLevel != null) {
+    // Text label for securitylevel value on security doors and airlocks
+    if ((marker.type === 'securityDoor' || marker.type === 'airlock') && marker.securityLevel != null) {
         const secLabel = document.createElement('span');
         secLabel.className = 'markersecurityLevel';
         secLabel.textContent = String(marker.securityLevel);
         div.appendChild(secLabel);
     }
 
-    // Shape
-    applyShape(div, marker);
+    // Text label for "i" on hint markers
+    if (marker.type === 'hint' ) {
+        const hintLabel = document.createElement('span');
+        hintLabel.className = 'markerInfo';
+        hintLabel.textContent = "i";
+        div.appendChild(hintLabel);
+    }
+
+
+   
    
     // Border
     switch (marker.z) {
@@ -58,10 +66,29 @@ export function createMarker(marker) {
     return div;
 }
 
-function applyShape(div, marker) {
+export function createLabel(label) {
 
-    // Use circles for all markers for simplicity.
-    div.style.borderRadius = '50%';
+    const div = document.createElement('div');
+
+    div.className = 'label';
+
+    div.style.position = 'absolute';
+
+    div.style.left = `${label.x}px`;
+
+    div.style.top = `${label.y}px`;
+
+    div.style.color = 'white';
+
+    div.style.fontWeight = 'bold';
+
+    div.style.backgroundColor = 'transparent';
+
+    div.style.zIndex = '600';
+
+    div.textContent = label.text;
+
+    return div;
 }
 
 
@@ -106,6 +133,19 @@ function showInfo(marker) {
 
     // Show popup
     popup.style.display = 'block';
+
+    // Position popup
+    popup.style.position = 'absolute';
+    popup.style.right = 'auto';
+    if (marker.popupX != null && marker.popupY != null) {
+        popup.style.left = `${marker.popupX}px`;
+        popup.style.top = `${marker.popupY}px`;
+        popup.style.transform = 'none';
+    } else {
+        popup.style.left = '50%';
+        popup.style.top = '20px';
+        popup.style.transform = 'translateX(-50%)';
+    }
 }
 
 // Hide popup when clicking map background

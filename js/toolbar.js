@@ -1,8 +1,16 @@
 const BUTTONS = [
 
+   
+   
+    {
+        type: 'airlock',
+        label: '● Airlock',
+        color: '#f56200'
+    },
+    
     {
         type: 'securityDoor',
-        label: '● Doors',
+        label: '● Inner Doors',
         color: '#0f02fa'
     },
 
@@ -30,11 +38,6 @@ const BUTTONS = [
         color: '#cc66ff'
     },
 
-    // {
-    //     type: 'power',
-    //     label: '● Power',
-    //     color: '#cc66ff'
-    // },
     {
         type: 'hint',
         label: '● Hints',

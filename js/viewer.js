@@ -14,6 +14,7 @@ const state = {
 
     filters: {
         securityDoor: false,
+        airlock: true,
         dataPort: true,
         terminal: false,
         power: false,
