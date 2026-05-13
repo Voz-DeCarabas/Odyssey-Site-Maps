@@ -486,7 +486,7 @@
     "size": 20,
     "x": 1210,
     "y": 392,
-    "z": 1,
+    "z": 0,
     "label": "Hint",
     "description": "Jump to the ledge, wait for L3 scan opportunity",
     "image": "images/other/scan_5.png"
