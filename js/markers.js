@@ -119,7 +119,8 @@ function showInfo(marker) {
 
         popup.id = 'infoPopup';
 
-        document.body.appendChild(popup);
+        const viewer = document.getElementById('viewer');
+        viewer.appendChild(popup);
     }
 
     popup.innerHTML = `
