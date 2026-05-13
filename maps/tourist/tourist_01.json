@@ -529,6 +529,32 @@
     "label": "Data Port",
     "description": "Data Port in the reactor room",
     "image": ""
+  },
+   {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 692,
+    "y": 278,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
+  },
+   {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 340,
+    "y": 245,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
   }
   ],
   "labels": [

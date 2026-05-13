@@ -35,7 +35,7 @@ const BUTTONS = [
     {
         type: 'container',
         label: '● PP Containers',
-        color: '#cc66ff'
+        color: '#dd8ef5'
     },
 
     {
