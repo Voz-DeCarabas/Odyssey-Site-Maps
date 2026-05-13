@@ -14,29 +14,47 @@ export function renderMap(layout, filters) {
     const viewer =
         document.getElementById('viewer');
 
-    image.src = layout.image.full;
+    const setViewerSize = () => {
+        const originalWidth = image.naturalWidth || layout.image.width || 1;
+        const originalHeight = image.naturalHeight || layout.image.height || 1;
 
-    // Set viewer size to match image
-    viewer.style.width = `${layout.image.width}px`;
-    viewer.style.height = `${layout.image.height}px`;
+        viewer.style.width = `${image.offsetWidth}px`;
+        viewer.style.height = `${image.offsetHeight}px`;
 
-    overlay.innerHTML = '';
+        overlay.innerHTML = '';
 
-    layout.markers.forEach(marker => {
+        layout.markers.forEach(marker => {
+            if (!filters[marker.type]) {
+                return;
+            }
 
-        if (!filters[marker.type]) {
+            const element = createMarker(marker, originalWidth, originalHeight);
+            overlay.appendChild(element);
+        });
+
+        if (layout.labels) {
+            layout.labels.forEach(label => {
+                const element = createLabel(label, originalWidth, originalHeight);
+                overlay.appendChild(element);
+            });
+        }
+    };
+
+    let hasRendered = false;
+    const onLoad = () => {
+        if (hasRendered) {
             return;
         }
 
-        const element = createMarker(marker);
+        hasRendered = true;
+        setViewerSize();
+        image.onload = null;
+    };
 
-        overlay.appendChild(element);
-    });
+    image.onload = onLoad;
+    image.src = layout.image.full;
 
-    if (layout.labels) {
-        layout.labels.forEach(label => {
-            const element = createLabel(label);
-            overlay.appendChild(element);
-        });
+    if (image.complete && image.naturalWidth > 0 && image.naturalHeight > 0) {
+        onLoad();
     }
 }

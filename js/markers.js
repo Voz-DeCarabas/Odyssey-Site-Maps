@@ -1,12 +1,15 @@
-export function createMarker(marker) {
+export function createMarker(marker, imageWidth = 1, imageHeight = 1) {
+
+    const width = imageWidth || 1;
+    const height = imageHeight || 1;
 
     const div = document.createElement('div');
 
     div.className = 'marker';
 
-    // Position
-    div.style.left = `${marker.x}px`;
-    div.style.top = `${marker.y}px`;
+    // Position as percentage of actual image size
+    div.style.left = `${(marker.x / width * 100)}%`;
+    div.style.top = `${(marker.y / height * 100)}%`;
 
     // Size
     const size = marker.size || 20;
@@ -69,7 +72,10 @@ export function createMarker(marker) {
     return div;
 }
 
-export function createLabel(label) {
+export function createLabel(label, imageWidth = 1, imageHeight = 1) {
+
+    const width = imageWidth || 1;
+    const height = imageHeight || 1;
 
     const div = document.createElement('div');
 
@@ -77,9 +83,9 @@ export function createLabel(label) {
 
     div.style.position = 'absolute';
 
-    div.style.left = `${label.x}px`;
+    div.style.left = `${(label.x / width * 100)}%`;
 
-    div.style.top = `${label.y}px`;
+    div.style.top = `${(label.y / height * 100)}%`;
 
     div.style.color = 'white';
 

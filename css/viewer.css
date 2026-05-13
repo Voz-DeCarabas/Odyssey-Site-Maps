@@ -6,7 +6,13 @@ body {
 
 #viewer {
     position: relative;
-    display: inline-block;
+    display: block;
+}
+
+#mapImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #layoutHeading {
