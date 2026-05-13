@@ -5,19 +5,19 @@ const BUTTONS = [
     {
         type: 'airlock',
         label: '● Airlock',
-        color: '#f56200'
+        color: '#0f02fa'
     },
     
     {
         type: 'securityDoor',
         label: '● Inner Doors',
-        color: '#0f02fa'
+        color: '#02c2f7'
     },
 
     {
         type: 'dataPort',
         label: '● Data Ports',
-        color: '#00ffff'
+        color: '#8400ff'
     },
 
     {

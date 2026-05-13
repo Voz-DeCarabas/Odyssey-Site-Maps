@@ -503,6 +503,32 @@
     "label": "Alarm Panel",
     "description": "Alarm Panel in the reactor room",
     "image": ""
+  },
+   {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 1230,
+    "y": 345,
+    "z": 0,
+    "label": "Data Port",
+    "description": "Data Port in the reactor room",
+    "image": ""
+  },
+   {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 341,
+    "y": 320,
+    "z": 0,
+    "label": "Data Port",
+    "description": "Data Port in the reactor room",
+    "image": ""
   }
   ],
   "labels": [
