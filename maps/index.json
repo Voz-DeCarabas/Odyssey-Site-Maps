@@ -130,24 +130,24 @@
       "thumbnail": "images/thumbnails/extraction_05.png"
     }
   ],
-  "hightech": [
+  "high_tech": [
     {
-      "id": "hightech_01",
+      "id": "high_tech_01",
       "name": "High-Tech 1",
       "thumbnail": "images/thumbnails/high_tech_01.png"
     }, 
     {
-      "id": "hightech_02",
+      "id": "high_tech_02",
       "name": "High-Tech 2",
       "thumbnail": "images/thumbnails/high_tech_02.png"
     }, 
     {
-      "id": "hightech_03",
+      "id": "high_tech_03",
       "name": "High-Tech 3",
       "thumbnail": "images/thumbnails/high_tech_03.png"
     }, 
     {
-      "id": "hightech_04",
+      "id": "high_tech_04",
       "name": "High-Tech 4",
       "thumbnail": "images/thumbnails/high_tech_04.png"
     } 
