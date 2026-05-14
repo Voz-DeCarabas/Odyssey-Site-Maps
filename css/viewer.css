@@ -2,6 +2,7 @@ body {
 
     user-select: none;
     background: #101010;
+    font-family: 'Michroma', sans-serif;
 }
 
 #viewer {
@@ -25,6 +26,7 @@ body {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 12px;
     font-size: 1.25rem;
+    font-family: 'Michroma', sans-serif;
     z-index: 500;
     pointer-events: none;
 }
@@ -91,6 +93,7 @@ body {
 }
 
 .markerKey {
+    font-family: 'Michroma', sans-serif;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -183,6 +186,7 @@ body {
     font-weight: bold;
     background-color: transparent;
     font-size: inherit;
+    font-family: 'Michroma', sans-serif;
     pointer-events: none;
 }
 
