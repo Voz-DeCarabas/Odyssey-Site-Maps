@@ -29,7 +29,7 @@
     }, 
     {
       "id": "agriculture_02",
-      "name": "Agriculture 2",
+      "name": "Agriculture 2 - tiny",
       "thumbnail": "images/thumbnails/agriculture_02.png"
     }, 
     {
@@ -79,17 +79,17 @@
   "industrial": [
     {
       "id": "industrial_01",
-      "name": "Industrial 1",
+      "name": "Industrial 1 - tiny",
       "thumbnail": "images/thumbnails/industrial_01.png"
     }, 
     {
       "id": "industrial_02",
-      "name": "Industrial 2",
+      "name": "Industrial 2 - medium (++)",
       "thumbnail": "images/thumbnails/industrial_02.png"
     }, 
     {
       "id": "industrial_03",
-      "name": "Industrial 3",
+      "name": "Industrial 3 - small (+)",
       "thumbnail": "images/thumbnails/industrial_03.png"
     }, 
     {
