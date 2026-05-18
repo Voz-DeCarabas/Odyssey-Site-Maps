@@ -53,8 +53,8 @@
     "securityLevel": 1,
     "color": "#0f02fa",
     "size": 20,
-    "x": 567,
-    "y": 588,
+    "x": 575,
+    "y": 597,
     "z": 0,
     "label": "Airlock",
     "description": "Level 1 access required"
@@ -137,8 +137,8 @@
     "securityLevel": 1,
     "color": "#02c2f3",
     "size": 20,
-    "x": 566,
-    "y": 593,
+    "x": 575,
+    "y": 620,
     "z": 1,
     "label": "Security Door",
     "description": "Level 1 access required"
