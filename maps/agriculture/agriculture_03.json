@@ -5,9 +5,8 @@
   "version": 1,
   "image": {
     "full": "images/full/agriculture_03.png",
-    "thumbnail": "images/thumbnails/agriculture_03.jpg",
-    "width": 4096,
-    "height": 4096
+    "width": 1280,
+    "height": 720
   },
  
   "markers": [

@@ -68,6 +68,13 @@ async function initialize() {
         toolbar.style.right = 'auto';
         toolbar.style.transform = 'none';
         toolbar.style.flexDirection = 'column';
+    } else if (position === 'right-vertical') {
+        toolbar.style.right = '20px';
+        toolbar.style.bottom = '20px';
+        toolbar.style.top = 'auto';
+        toolbar.style.left = 'auto';
+        toolbar.style.transform = 'none';
+        toolbar.style.flexDirection = 'column';
     } else {
         // bottom-left
         toolbar.style.left = '20px';
