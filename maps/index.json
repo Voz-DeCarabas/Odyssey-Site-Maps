@@ -52,17 +52,17 @@
   "military": [
     {
       "id": "military_01",
-      "name": "Military 1",
+      "name": "Military 1 - tiny",
       "thumbnail": "images/thumbnails/military_01.png"
     }, 
     {
       "id": "military_02",
-      "name": "Military 2",
+      "name": "Military 2 - tiny",
       "thumbnail": "images/thumbnails/military_02.png"
     }, 
     {
       "id": "military_03",
-      "name": "Military 3",
+      "name": "Military 3 - small (+)",
       "thumbnail": "images/thumbnails/military_03.png"
     }  , 
     {

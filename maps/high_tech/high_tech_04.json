@@ -2,12 +2,12 @@
   "id": "high_Tech_04",
   "name": "High Tech 4",
   "class": "high_tech",
+  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/high_tech_04.png",
-    "thumbnail": "images/thumbnails/high_tech_04.jpg",
-    "width": 4096,
-    "height": 4096
+    "width": 1280,
+    "height": 720
   },
  
   "markers": [

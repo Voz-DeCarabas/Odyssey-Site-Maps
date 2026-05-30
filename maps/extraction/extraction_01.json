@@ -2,12 +2,12 @@
   "id": "extraction_01",
   "name": "Extraction 1",
   "class": "extraction",
+  "toolbarPosition": "left-vertical", 
   "version": 1,
   "image": {
     "full": "images/full/extraction_01.png",
-    "thumbnail": "images/thumbnails/extraction_01.jpg",
-    "width": 4096,
-    "height": 4096
+    "width": 1280,
+    "height": 720
   },
  
   "markers": [

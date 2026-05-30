@@ -2,6 +2,7 @@
   "id": "industrial_02",
   "name": "Industrial 2",
   "class": "industrial",
+  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/industrial_02.png",

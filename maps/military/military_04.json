@@ -2,12 +2,12 @@
   "id": "military_04",
   "name": "Military 4",
   "class": "military",
+  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/military_04.png",
-    "thumbnail": "images/thumbnails/military_04.jpg",
-    "width": 4096,
-    "height": 4096
+    "width": 1280,
+    "height": 720
   },
  
   "markers": [
