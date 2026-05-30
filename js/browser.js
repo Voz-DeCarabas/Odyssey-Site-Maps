@@ -2,7 +2,7 @@ import {
     loadIndex
 } from './maps.js';
 
-let selectedType = 'all';
+let selectedType = 'intro';
 let currentIndex = null;
 
 async function initialize() {
@@ -20,7 +20,7 @@ function renderSiteTypeSelector(index) {
 
     selector.innerHTML = '';
 
-    const types = ['all',
+    const types = ['intro', 'all',
         ...Object.keys(index)
     ];
 
@@ -36,9 +36,9 @@ function renderSiteTypeSelector(index) {
         }
 
         button.textContent =
-            type === 'all'
-                ? 'All Sites'
-                : formatName(type);
+            type === 'all' ? 'All Sites'
+            : type === 'intro' ? 'About'
+            : formatName(type);
 
         button.addEventListener('click', () => {
 
@@ -61,6 +61,11 @@ function renderSections(index) {
         document.getElementById('content');
 
     content.innerHTML = '';
+
+    if (selectedType === 'intro') {
+        renderIntro(index);
+        return;
+    }
 
     const entries =
         selectedType === 'all'
@@ -130,6 +135,40 @@ function createThumbnail(layout, className) {
     });
 
     return div;
+}
+
+function renderIntro(index) {
+
+    const content = document.getElementById('content');
+
+    const section = document.createElement('section');
+    section.className = 'section';
+
+    const title = document.createElement('h2');
+    title.className = 'sectionTitle';
+    title.textContent = 'Welcome to Odyssey Site Maps';
+    section.appendChild(title);
+
+    const p = document.createElement('p');
+    p.textContent = 'This site provides layout maps for Odyssey surface sites. Use the category buttons above to browse site maps. Click any thumbnail to open the map in the viewer.';
+    section.appendChild(p);
+
+    const hint = document.createElement('p');
+    hint.textContent = 'Tip: You can return here anytime by clicking About.';
+    section.appendChild(hint);
+
+    const btn = document.createElement('button');
+    btn.className = 'siteTypeButton';
+    btn.textContent = 'View All Sites';
+    btn.addEventListener('click', () => {
+        selectedType = 'all';
+        renderSiteTypeSelector(index);
+        renderSections(index);
+    });
+
+    section.appendChild(btn);
+
+    content.appendChild(section);
 }
 
 function formatName(name) {
