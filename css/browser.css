@@ -105,3 +105,27 @@ h1 {
     border-color: orange;
     background: #2b2b2b;
 }
+
+.intro-links {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.intro-links a {
+    color: orange;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.intro-links a:hover {
+    text-decoration: underline;
+}
+
+.link-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}

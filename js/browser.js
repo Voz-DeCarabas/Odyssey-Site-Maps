@@ -153,10 +153,11 @@ function renderIntro(index) {
     p.textContent = 'This site provides layout maps for Odyssey surface sites. Use the category buttons above to browse site maps. Click any thumbnail to open the map in the viewer.';
     section.appendChild(p);
 
-    const hint = document.createElement('p');
-    hint.textContent = 'Tip: You can return here anytime by clicking About.';
-    section.appendChild(hint);
+    const p2 = document.createElement('p');
+    p2.textContent = 'Use the GitHub link above for the code, or to contact me with any questions or suggestions. Enjoy exploring the sites!';
+    section.appendChild(p2);
 
+    
     const btn = document.createElement('button');
     btn.className = 'siteTypeButton';
     btn.textContent = 'View All Sites';
