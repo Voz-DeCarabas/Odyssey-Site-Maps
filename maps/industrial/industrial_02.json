@@ -421,8 +421,8 @@
     "color": "#8400ff",
     "size": 20,
     "x": 714,
-    "y": 814,
-    "z": 1,
+    "y": 481,
+    "z": 0,
     "label": "Data Port",
     "description": "Habitat data port 1",
     "image": ""

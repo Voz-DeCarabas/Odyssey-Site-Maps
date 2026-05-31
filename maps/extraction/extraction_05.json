@@ -11,20 +11,232 @@
   },
  
   "markers": [
-    {
-      "id": "door_01",
-      "type": "securityDoor",
-      "color": "#ff3333",
-      "securityLevel": 2,
-      "size": 24,
-      "x": 321,
-      "y": 142,
-      "z": 0,
-      "label": "Security Door",
-      "description": "Level 2 clearance required"
-    }
+  {
+    "id": "airlock_01",
+    "type": "airlock",
+    "securityLevel": 0,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 369,
+    "y": 515,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Open access",
+    "image": ""
+  },
+  {
+    "id": "airlock_02",
+    "type": "airlock",
+    "securityLevel": 0,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 441,
+    "y": 583,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Open access",
+    "image": ""
+  },
+  {
+    "id": "airlock_03",
+    "type": "airlock",
+    "securityLevel": 2,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 455,
+    "y": 352,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 2 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_04",
+    "type": "airlock",
+    "securityLevel": 2,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 589,
+    "y": 152,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 2 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_05",
+    "type": "airlock",
+    "securityLevel": 1,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 612,
+    "y": 427,
+    "z": 1,
+    "label": "Airlock",
+    "description": "Level 1 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_06",
+    "type": "airlock",
+    "securityLevel": 1,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 619,
+    "y": 286,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 1 access required",
+    "image": ""
+  },
+  {
+    "id": "door_01",
+    "type": "securityDoor",
+    "securityLevel": 3,
+    "color": "#02c2f3",
+    "size": 20,
+    "x": 380,
+    "y": 232,
+    "z": 0,
+    "label": "Security Door",
+    "description": "Level 3 access required",
+    "image": ""
+  },
+  {
+    "id": "door_02",
+    "type": "securityDoor",
+    "securityLevel": 3,
+    "color": "#02c2f3",
+    "size": 20,
+    "x": 384,
+    "y": 140,
+    "z": 0,
+    "label": "Security Door",
+    "description": "Level 3 access required",
+    "image": ""
+  },
+  {
+    "id": "terminal_01",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 349,
+    "y": 540,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_02",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 532,
+    "y": 161,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_03",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 792,
+    "y": 80,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_04",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 558,
+    "y": 309,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_05",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 618,
+    "y": 320,
+    "z": 1,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "hint_01",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 588,
+    "y": 311,
+    "z": 1,
+    "label": "Hint",
+    "description": "No easy L3 scan.  Try for L2 through the window here to get into PWR.",
+    "image": "images/other/scan_2.png"
+  },
+  {
+    "id": "hint_02",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 614,
+    "y": 677,
+    "z": 0,
+    "label": "Credit",
+    "description": "Credit for the original map goes to CMDR Karl Berg",
+    "image": ""
+  },
+  {
+    "id": "alarm_01",
+    "type": "alarmPanel",
+    "securityLevel": "",
+    "color": "#f0fc05",
+    "size": 20,
+    "x": 371,
+    "y": 167,
+    "z": 0,
+    "label": "Alarm Panel",
+    "description": "",
+    "image": ""
+  }
   ],
-  
+  "labels": [
+  {
+    "x": 370,
+    "y": 588,
+    "text": "HAB"
+  },
+  {
+    "x": 449,
+    "y": 218,
+    "text": "PWR"
+  },
+  {
+    "x": 609,
+    "y": 378,
+    "text": "EXT"
+  }
+  ],
   "metadata": {
     "author": "Voz_DeCarabas",
     "updated": "2026-05-09",

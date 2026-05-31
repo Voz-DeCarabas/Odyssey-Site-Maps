@@ -144,31 +144,21 @@ function renderIntro(index) {
     const section = document.createElement('section');
     section.className = 'section';
 
-    const title = document.createElement('h2');
-    title.className = 'sectionTitle';
-    title.textContent = 'Welcome to Odyssey Site Maps';
-    section.appendChild(title);
+   
 
     const p = document.createElement('p');
-    p.textContent = 'This site provides layout maps for Odyssey surface sites. Use the category buttons above to browse site maps. Click any thumbnail to open the map in the viewer.';
+    p.textContent = 'This site provides layout maps for Odyssey surface sites. Use the category buttons above to browse site maps.';
     section.appendChild(p);
 
     const p2 = document.createElement('p');
-    p2.textContent = 'Use the GitHub link above for the code, or to contact me with any questions or suggestions. Enjoy exploring the sites!';
+    p2.textContent = 'Click any thumbnail to open the map in the viewer, and toggle the various options to customize the display. The viewer is designed to work well on mobile devices, so you can easily use it while exploring a site in-game.';
     section.appendChild(p2);
 
-    
-    const btn = document.createElement('button');
-    btn.className = 'siteTypeButton';
-    btn.textContent = 'View All Sites';
-    btn.addEventListener('click', () => {
-        selectedType = 'all';
-        renderSiteTypeSelector(index);
-        renderSections(index);
-    });
+    const p3 = document.createElement('p');
+    p3.textContent = 'Use the GitHub link above for the code or to contact me with any questions or suggestions. Enjoy exploring the sites! o7';
+    section.appendChild(p3);
 
-    section.appendChild(btn);
-
+ 
     content.appendChild(section);
 }
 
