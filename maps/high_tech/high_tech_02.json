@@ -11,20 +11,250 @@
   },
  
   "markers": [
-    {
-      "id": "door_01",
-      "type": "securityDoor",
-      "color": "#ff3333",
-      "securityLevel": 2,
-      "size": 24,
-      "x": 321,
-      "y": 142,
-      "z": 0,
-      "label": "Security Door",
-      "description": "Level 2 clearance required"
-    }
+  {
+    "id": "airlock_01",
+    "type": "airlock",
+    "securityLevel": 1,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 460,
+    "y": 443,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 1 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_02",
+    "type": "airlock",
+    "securityLevel": 2,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 730,
+    "y": 245,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 2 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_03",
+    "type": "airlock",
+    "securityLevel": 3,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 772,
+    "y": 171,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 3 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_04",
+    "type": "airlock",
+    "securityLevel": 3,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 870,
+    "y": 120,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Level 3 access required",
+    "image": ""
+  },
+  {
+    "id": "airlock_05",
+    "type": "airlock",
+    "securityLevel": 0,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 920,
+    "y": 523,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Open access",
+    "image": ""
+  },
+  {
+    "id": "airlock_06",
+    "type": "airlock",
+    "securityLevel": 0,
+    "color": "#0f02fa",
+    "size": 20,
+    "x": 973,
+    "y": 354,
+    "z": 0,
+    "label": "Airlock",
+    "description": "Open access",
+    "image": ""
+  },
+  {
+    "id": "door_01",
+    "type": "securityDoor",
+    "securityLevel": 2,
+    "color": "#02c2f3",
+    "size": 20,
+    "x": 522,
+    "y": 468,
+    "z": 0,
+    "label": "Security Door",
+    "description": "Level 2 access required",
+    "image": ""
+  },
+  {
+    "id": "door_02",
+    "type": "securityDoor",
+    "securityLevel": 1,
+    "color": "#02c2f3",
+    "size": 20,
+    "x": 1026,
+    "y": 373,
+    "z": 0,
+    "label": "Security Door",
+    "description": "Level 1 access required",
+    "image": ""
+  },
+  {
+    "id": "door_03",
+    "type": "securityDoor",
+    "securityLevel": 1,
+    "color": "#02c2f3",
+    "size": 20,
+    "x": 969,
+    "y": 547,
+    "z": 0,
+    "label": "Security Door",
+    "description": "Level 1 access required",
+    "image": ""
+  },
+  {
+    "id": "terminal_01",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 487,
+    "y": 451,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_02",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 566,
+    "y": 401,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_03",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 690,
+    "y": 256,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_04",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 997,
+    "y": 376,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "terminal_05",
+    "type": "terminal",
+    "securityLevel": "",
+    "color": "#5afa57",
+    "size": 20,
+    "x": 940,
+    "y": 548,
+    "z": 0,
+    "label": "Terminal",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "hint_01",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 615,
+    "y": 379,
+    "z": 1,
+    "label": "Hint",
+    "description": "Stand on the crate and scan the legs of the L3 through the window.  If you can't see their face, they can't see you!",
+    "image": "images/other/scan_12.png"
+  },
+  {
+    "id": "hint_02",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 239,
+    "y": 608,
+    "z": 0,
+    "label": "Info",
+    "description": "Credit to CMDR Karl Berg for this map",
+    "image": ""
+  },  
+  {
+    "id": "alarm_01",
+    "type": "alarmPanel",
+    "securityLevel": "",
+    "color": "#f0fc05",
+    "size": 20,
+    "x": 793,
+    "y": 58,
+    "z": 1,
+    "label": "Alarm Panel",
+    "description": "",
+    "image": ""
+  }
   ],
-  
+  "labels": [
+  {
+    "x": 766,
+    "y": 275,
+    "text": "RES"
+  },
+  {
+    "x": 761,
+    "y": 135,
+    "text": "PWR"
+  },
+  {
+    "x": 1078,
+    "y": 544,
+    "text": "HAB"
+  },
+  {
+    "x": 1109,
+    "y": 350,
+    "text": "HAB"
+  }
+  ], 
   "metadata": {
     "author": "Voz_DeCarabas",
     "updated": "2026-05-09",

@@ -323,6 +323,19 @@
     "description": "Scan from the window ledge",
     "image": "images/other/scan_20.png"
   },
+    {
+    "id": "hint_03",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 239,
+    "y": 608,
+    "z": 0,
+    "label": "Info",
+    "description": "Credit to CMDR Karl Berg for this map",
+    "image": ""
+  },  
   {
     "id": "alarm_01",
     "type": "alarmPanel",

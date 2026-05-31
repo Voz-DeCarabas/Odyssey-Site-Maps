@@ -259,6 +259,19 @@
     "image": "images/other/scan_14.png"
   },
   {
+    "id": "hint_02",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 506,
+    "y": 533,
+    "z": 0,
+    "label": "Info",
+    "description": "Credit to CMDR Karl Berg for this map",
+    "image": ""
+  },
+  {
     "id": "alarm_01",
     "type": "alarmPanel",
     "securityLevel": "",
