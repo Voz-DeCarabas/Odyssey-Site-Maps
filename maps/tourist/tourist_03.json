@@ -417,6 +417,30 @@
     "z": 0,
     "label": "Data Port",
     "description": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 804,
+    "y": 407,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 947,
+    "y": 323,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": ""
   }
   ],
   "labels": [

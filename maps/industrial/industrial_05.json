@@ -6,8 +6,8 @@
   "version": 1,
   "image": {
     "full": "images/full/industrial_05.png",
-    "width": 4096,
-    "height": 4096
+    "width": 1280,
+    "height": 720
   },
  
   "markers": [

@@ -1,4 +1,5 @@
 import {
+    loadIndex,
     loadLayout
 } from './maps.js';
 
@@ -35,6 +36,8 @@ async function initialize() {
 
     const mapId = params.get('map');
 
+    const currentIndex = await loadIndex();
+
     state.layout = await loadLayout(
         className,
         mapId
@@ -48,7 +51,10 @@ async function initialize() {
 
     createToolbar(
         state.filters,
-        onFilterChanged
+        onFilterChanged,
+        className,
+        mapId,
+        currentIndex
     );
 
     // Set toolbar position

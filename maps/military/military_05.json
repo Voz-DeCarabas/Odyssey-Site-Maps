@@ -348,6 +348,84 @@
     "label": "Alarm Panel",
     "description": "Second alarm panel upstairs in OPR",
     "image": ""
+  },
+    {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 529,
+    "y": 465,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 686,
+    "y": 260,
+    "z": 1,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_03",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 351,
+    "y": 261,
+    "z": 1,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_04",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 370,
+    "y": 322,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 766,
+    "y": 213,
+    "z": 1,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef6",
+    "size": 20,
+    "x": 428,
+    "y": 265,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
   }
   ],
  "labels": [
@@ -383,7 +461,7 @@
   },
   {
     "x": 632,
-    "y": 441,
+    "y": 401,
     "text": "OPR"
   }
   ],

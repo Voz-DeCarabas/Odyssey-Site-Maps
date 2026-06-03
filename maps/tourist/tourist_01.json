@@ -2,7 +2,6 @@
   "id": "tourist_01",
   "name": "Tourist 1",
   "class": "tourist",
-  "toolbarPosition": "left-vertical",
   "version": 1,
   "image": {
     "full": "images/full/tourist_01.png",

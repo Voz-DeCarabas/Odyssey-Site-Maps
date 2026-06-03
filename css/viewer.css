@@ -79,9 +79,9 @@ body {
 
     display: flex;
 
-    gap: 12px;
+    gap: 8px;
 
-    padding: 14px;
+    padding: 8px;
 
     background: rgba(0,0,0,0.8);
 
@@ -100,7 +100,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 14px;
+    padding: 8px;
     background: rgba(0,0,0,0.8);
     border-radius: 16px;
     z-index: 1000;
@@ -148,11 +148,40 @@ body {
 
     color: white;
 
-    padding: 10px 16px;
+    padding: 6px 10px;
 
     cursor: pointer;
 
     border-radius: 10px;
+}
+
+.toolbarButtonGroup {
+    display: flex;
+    border: 1px solid #555;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #222;
+}
+
+.toolbarButtonGroup .toolbarButton {
+    border: none;
+    border-left: 1px solid #555;
+    border-radius: 0;
+    margin: 0;
+    background: transparent;
+    padding: 6px 8px;
+}
+
+.toolbarButtonGroup .toolbarButton:first-child {
+    border-left: none;
+}
+
+.toolbarButtonGroup .toolbarButton:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.toolbarButtonGroup .toolbarButton.center {
+    min-width: 130px;
 }
 
 .toolbarButton.active {
