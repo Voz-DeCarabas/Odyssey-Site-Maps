@@ -190,11 +190,22 @@
     "y": 311,
     "z": 1,
     "label": "Hint",
-    "description": "No easy L3 scan.  Try for L2 through the window here to get into PWR.",
-    "image": "images/other/scan_2.png"
+    "description": "If the L3 scan on PWR doesn't work, try for L2 through the window here to get into PWR."
   },
   {
     "id": "hint_02",
+    "type": "hint",
+    "securityLevel": "",
+    "color": "#198a0f",
+    "size": 20,
+    "x": 401,
+    "y": 107,
+    "z": 1,
+    "label": "Hint",
+    "description": "Scan L3 from the window ledge"
+  },
+  {
+    "id": "hint_03",
     "type": "hint",
     "securityLevel": "",
     "color": "#198a0f",
@@ -203,8 +214,7 @@
     "y": 677,
     "z": 0,
     "label": "Credit",
-    "description": "Credit for the original map goes to CMDR Karl Berg",
-    "image": ""
+    "description": "Credit for the original map goes to CMDR Karl Berg"
   },
   {
     "id": "alarm_01",
@@ -216,8 +226,43 @@
     "y": 167,
     "z": 0,
     "label": "Alarm Panel",
-    "description": "",
-    "image": ""
+    "description": "Alarm panel is in the PWR room"
+  },
+  {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 366,
+    "y": 191,
+    "z": 0,
+    "label": "Data Port",
+    "description": ""
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 578,
+    "y": 370,
+    "z": 0,
+    "label": "Data Port",
+    "description": ""
+  },
+  {
+    "id": "dataPort_03",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 349,
+    "y": 611,
+    "z": 0,
+    "label": "Data Port",
+    "description": ""
   }
   ],
   "labels": [

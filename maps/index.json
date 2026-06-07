@@ -57,7 +57,7 @@
     }, 
     {
       "id": "military_02",
-      "name": "Military 2 - tiny",
+      "name": "Military 2 - medium (++)",
       "thumbnail": "images/thumbnails/military_02.png"
     }, 
     {
@@ -116,7 +116,7 @@
     }, 
     {
       "id": "extraction_03",
-      "name": "Extraction 3",
+      "name": "Extraction 3 - medium (++)",
       "thumbnail": "images/thumbnails/extraction_03.png"
     }, 
     {
@@ -126,7 +126,7 @@
     } , 
     {
       "id": "extraction_05",
-      "name": "Extraction 5",
+      "name": "Extraction 5 -  tiny",
       "thumbnail": "images/thumbnails/extraction_05.png"
     }
   ],
