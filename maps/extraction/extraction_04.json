@@ -308,6 +308,71 @@
     "label": "Alarm Panel",
     "description": "",
     "image": ""
+  },
+    {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 183,
+    "y": 356,
+    "z": 1,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 290,
+    "y": 546,
+    "z": 1,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_03",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 1141,
+    "y": 191,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_04",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 908,
+    "y": 172,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 1013,
+    "y": 371,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
   }
   ],
     "labels": [

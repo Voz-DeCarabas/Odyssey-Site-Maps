@@ -238,7 +238,8 @@
     "y": 191,
     "z": 0,
     "label": "Data Port",
-    "description": ""
+    "description": "",
+    "image": ""
   },
   {
     "id": "dataPort_02",
@@ -246,11 +247,12 @@
     "securityLevel": "",
     "color": "#8400ff",
     "size": 20,
-    "x": 578,
-    "y": 370,
-    "z": 0,
+    "x": 614,
+    "y": 357,
+    "z": 1,
     "label": "Data Port",
-    "description": ""
+    "description": "",
+    "image": ""
   },
   {
     "id": "dataPort_03",
@@ -262,7 +264,34 @@
     "y": 611,
     "z": 0,
     "label": "Data Port",
-    "description": ""
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 744,
+    "y": 99,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef6",
+    "size": 20,
+    "x": 587,
+    "y": 357,
+    "z": 1,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
   }
   ],
   "labels": [
