@@ -126,6 +126,54 @@
     "label": "Alarm Panel",
     "description": "",
     "image": ""
+  },
+  {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 433,
+    "y": 284,
+    "z": 0,
+    "label": "Data Port",
+    "description": "Hab DP1"
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 673,
+    "y": 184,
+    "z": 0,
+    "label": "Data Port",
+    "description": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 734,
+    "y": 212,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef6",
+    "size": 20,
+    "x": 506,
+    "y": 121,
+    "z": 1,
+    "label": "Powerplay Container",
+    "description": ""
   }
   ],
    "labels": [

@@ -245,6 +245,71 @@
     "label": "Alarm Panel",
     "description": "Alarm panel upstairs in the PWR building",
     "image": ""
+  },
+    {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 624,
+    "y": 148,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 1051,
+    "y": 111,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "dataPort_03",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 854,
+    "y": 498,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 304,
+    "y": 626,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 869,
+    "y": 441,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": ""
   }
   ],
   "labels": [
