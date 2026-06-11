@@ -1,5 +1,4 @@
 # Odyssey Site Maps
-Odyssey Site Maps
 
 Having used the incredibly helpful Odyssey Map Guide (OMG) by CMDR Quizengine https://github.com/Quizengine/OMG I've felt that there are a few things that I would like to see added.
 Sadly CMDR Quizengine passed away and the code that remains is very hard to follow.  It was created in Adobe Animate CC and uses a very flat structure that although efficient doesn't lend itself to easy extension.
