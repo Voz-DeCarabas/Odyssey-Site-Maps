@@ -11,7 +11,7 @@
   },
  
   "markers": [
-  {
+   {
     "id": "airlock_01",
     "type": "airlock",
     "securityLevel": 0,
@@ -22,20 +22,22 @@
     "z": 0,
     "label": "Airlock",
     "description": "Open access",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "door_01",
     "type": "securityDoor",
     "securityLevel": 3,
-    "color": "#0f02fa",
+    "color": "#02c2f3",
     "size": 20,
     "x": 834,
     "y": 466,
     "z": 0,
     "label": "Security Door",
     "description": "Level 3 access required",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "door_02",
@@ -48,7 +50,8 @@
     "z": 0,
     "label": "Security Door",
     "description": "Level 2 access required",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "terminal_01",
@@ -61,7 +64,8 @@
     "z": 0,
     "label": "Terminal",
     "description": "",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "terminal_02",
@@ -74,7 +78,8 @@
     "z": 0,
     "label": "Terminal",
     "description": "",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "terminal_03",
@@ -87,7 +92,8 @@
     "z": 0,
     "label": "Terminal",
     "description": "",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "terminal_04",
@@ -100,7 +106,8 @@
     "z": 1,
     "label": "Terminal",
     "description": "",
-    "image": ""
+    "image": "",
+    "": ""
   },
   {
     "id": "hint_01",
@@ -113,7 +120,8 @@
     "z": 1,
     "label": "Hint",
     "description": "Jump up to left hand window and careful to make sure they can't see you!",
-    "image": "images/other/scan_17.png"
+    "image": "images/other/scan_17.png",
+    "": ""
   },
   {
     "id": "alarm_01",
@@ -126,7 +134,78 @@
     "z": 1,
     "label": "Alarm Panel",
     "description": "",
-    "image": ""
+    "image": "",
+    "": ""
+  },
+  {
+    "id": "dataPort_01",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 833,
+    "y": 229,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": "",
+    "": ""
+  },
+  {
+    "id": "dataPort_02",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 822,
+    "y": 283,
+    "z": 0,
+    "label": "Data Port",
+    "description": "",
+    "image": "",
+    "": ""
+  },
+  {
+    "id": "dataPort_03",
+    "type": "dataPort",
+    "securityLevel": "",
+    "color": "#8400ff",
+    "size": 20,
+    "x": 833,
+    "y": 554,
+    "z": 1,
+    "label": "Data Port",
+    "description": "",
+    "image": "",
+    "": ""
+  },
+  {
+    "id": "container_01",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef5",
+    "size": 20,
+    "x": 823,
+    "y": 249,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": "",
+    "": ""
+  },
+  {
+    "id": "container_02",
+    "type": "container",
+    "securityLevel": "",
+    "color": "#dd8ef6",
+    "size": 20,
+    "x": 619,
+    "y": 109,
+    "z": 0,
+    "label": "Powerplay Container",
+    "description": "",
+    "image": "",
+    "": ""
   }
   ],
   "labels": [

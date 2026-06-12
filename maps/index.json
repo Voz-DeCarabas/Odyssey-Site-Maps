@@ -67,7 +67,7 @@
     }  , 
     {
       "id": "military_04",
-      "name": "Military 4",
+      "name": "Military 4 - small (+)",
       "thumbnail": "images/thumbnails/military_04.png"
     }  , 
     {
@@ -106,7 +106,7 @@
   "extraction": [
     {
       "id": "extraction_01",
-      "name": "Extraction 1",
+      "name": "Extraction 1 - medium (++)",
       "thumbnail": "images/thumbnails/extraction_01.png"
     }, 
     {
@@ -148,7 +148,7 @@
     }, 
     {
       "id": "high_tech_04",
-      "name": "High Tech 4",
+      "name": "High Tech 4 - small (+)",
       "thumbnail": "images/thumbnails/high_tech_04.png"
     } 
   ]
