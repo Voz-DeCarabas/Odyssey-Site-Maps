@@ -1,0 +1,217 @@
+{
+  "id": "resources_01",
+  "name": "Jameson's Crash Site",
+  "class": "resources",
+  "version": 1,
+  "toolbarPosition": "bottom-left",
+  "keyPosition": "",
+  "image": {
+    "full": "images/full/jameson.png",
+    "width": 1280,
+    "height": 720
+  },
+  "markers": [
+    {
+      "id": "comms_01",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 423,
+      "y": 585,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_02",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 648,
+      "y": 509,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_03",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 519,
+      "y": 413,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_04",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 721,
+      "y": 122,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_05",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 543,
+      "y": 96,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_06",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 529,
+      "y": 255,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_07",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 679,
+      "y": 340,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_08",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 825,
+      "y": 447,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "comms_09",
+      "type": "comms",
+      "color": "#FF6B6B",
+      "size": 25,
+      "x": 907,
+      "y": 293,
+      "z": 0,
+      "label": "Comms Log",
+      "description": "Communication logs and records",
+      "image": ""
+    },
+    {
+      "id": "material_01",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 607,
+      "y": 288,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "material_02",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 614,
+      "y": 320,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "material_03",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 679,
+      "y": 299,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    }
+    ,
+    {
+      "id": "material_04",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 671,
+      "y": 360,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "material_05",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 739,
+      "y": 348,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "material_06",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 797,
+      "y": 294,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "material_07",
+      "type": "cannister",
+      "color": "#4ECDC4",
+      "size": 15,
+      "x": 804,
+      "y": 376,
+      "z": 0,
+      "label": "Cargo Cannister",
+      "description": "",
+      "image": ""
+    }
+  ],
+  "labels": [
+    {
+      "text": "Cobra MKIII",
+      "x": 300,
+      "y": 160,
+      "size": 32,
+      "color": "#333333"
+    }
+  ]
+}

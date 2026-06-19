@@ -8,194 +8,194 @@
     "width": 1280,
     "height": 720
   },
- 
   "markers": [
-   {
-    "id": "airlock_01",
-    "type": "airlock",
-    "securityLevel": 1,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 479,
-    "y": 258,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 1 access required",
-    "image": ""
-  },
-  {
-    "id": "airlock_02",
-    "type": "airlock",
-    "securityLevel": 3,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 513,
-    "y": 204,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 3 access required",
-    "image": ""
-  },
-  {
-    "id": "airlock_03",
-    "type": "airlock",
-    "securityLevel": 3,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 565,
-    "y": 143,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 3 access required",
-    "image": ""
-  },
-  {
-    "id": "airlock_04",
-    "type": "airlock",
-    "securityLevel": 1,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 622,
-    "y": 233,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 1 access required",
-    "image": ""
-  },
-  {
-    "id": "terminal_01",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 527,
-    "y": 332,
-    "z": 0,
-    "label": "Terminal",
-    "description": "",
-    "image": ""
-  },
-  {
-    "id": "terminal_02",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 644,
-    "y": 211,
-    "z": 0,
-    "label": "Terminal",
-    "description": "",
-    "image": ""
-  },
-  {
-    "id": "terminal_03",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 741,
-    "y": 508,
-    "z": 0,
-    "label": "Terminal",
-    "description": "",
-    "image": ""
-  },
-  {
-    "id": "hint_01",
-    "type": "hint",
-    "securityLevel": "",
-    "color": "#198a0f",
-    "size": 20,
-    "x": 754,
-    "y": 148,
-    "z": 1,
-    "label": "Hint",
-    "description": "Scan L3 through the roof while crouching but be careful of NPCs watching!",
-    "image": ""
-  },
-  {
-    "id": "alarm_01",
-    "type": "alarmPanel",
-    "securityLevel": "",
-    "color": "#f0fc05",
-    "size": 20,
-    "x": 499,
-    "y": 121,
-    "z": 1,
-    "label": "Alarm Panel",
-    "description": "",
-    "image": ""
-  },
-  {
-    "id": "dataPort_01",
-    "type": "dataPort",
-    "securityLevel": "",
-    "color": "#8400ff",
-    "size": 20,
-    "x": 433,
-    "y": 284,
-    "z": 0,
-    "label": "Data Port",
-    "description": "Hab DP1"
-  },
-  {
-    "id": "dataPort_02",
-    "type": "dataPort",
-    "securityLevel": "",
-    "color": "#8400ff",
-    "size": 20,
-    "x": 673,
-    "y": 184,
-    "z": 0,
-    "label": "Data Port",
-    "description": ""
-  },
-  {
-    "id": "container_01",
-    "type": "container",
-    "securityLevel": "",
-    "color": "#dd8ef5",
-    "size": 20,
-    "x": 734,
-    "y": 212,
-    "z": 0,
-    "label": "Powerplay Container",
-    "description": ""
-  },
-  {
-    "id": "container_02",
-    "type": "container",
-    "securityLevel": "",
-    "color": "#dd8ef6",
-    "size": 20,
-    "x": 506,
-    "y": 121,
-    "z": 1,
-    "label": "Powerplay Container",
-    "description": ""
-  }
+    {
+      "id": "airlock_01",
+      "type": "airlock",
+      "securityLevel": 1,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 479,
+      "y": 258,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 1 access required",
+      "image": ""
+    },
+    {
+      "id": "airlock_02",
+      "type": "airlock",
+      "securityLevel": 3,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 513,
+      "y": 204,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 3 access required",
+      "image": ""
+    },
+    {
+      "id": "airlock_03",
+      "type": "airlock",
+      "securityLevel": 3,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 565,
+      "y": 143,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 3 access required",
+      "image": ""
+    },
+    {
+      "id": "airlock_04",
+      "type": "airlock",
+      "securityLevel": 1,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 622,
+      "y": 233,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 1 access required",
+      "image": ""
+    },
+    {
+      "id": "terminal_01",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 527,
+      "y": 332,
+      "z": 0,
+      "label": "Terminal",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "terminal_02",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 644,
+      "y": 211,
+      "z": 0,
+      "label": "Terminal",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "terminal_03",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 741,
+      "y": 508,
+      "z": 0,
+      "label": "Terminal",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "hint_01",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 754,
+      "y": 148,
+      "z": 1,
+      "label": "Hint",
+      "description": "Scan L3 through the roof while crouching but be careful of NPCs watching!",
+      "image": ""
+    },
+    {
+      "id": "alarm_01",
+      "type": "alarmPanel",
+      "securityLevel": "",
+      "color": "#f0fc05",
+      "size": 20,
+      "x": 499,
+      "y": 121,
+      "z": 1,
+      "label": "Alarm Panel",
+      "description": "",
+      "image": ""
+    },
+    {
+      "id": "dataPort_01",
+      "type": "dataPort",
+      "securityLevel": "",
+      "color": "#8400ff",
+      "size": 20,
+      "x": 433,
+      "y": 284,
+      "z": 0,
+      "label": "Data Port",
+      "description": "Hab DP1"
+    },
+    {
+      "id": "dataPort_02",
+      "type": "dataPort",
+      "securityLevel": "",
+      "color": "#8400ff",
+      "size": 20,
+      "x": 673,
+      "y": 184,
+      "z": 0,
+      "label": "Data Port",
+      "description": ""
+    },
+    {
+      "id": "container_01",
+      "type": "container",
+      "securityLevel": "",
+      "color": "#dd8ef5",
+      "size": 20,
+      "x": 734,
+      "y": 212,
+      "z": 0,
+      "label": "Powerplay Container",
+      "description": ""
+    },
+    {
+      "id": "container_02",
+      "type": "container",
+      "securityLevel": "",
+      "color": "#dd8ef6",
+      "size": 20,
+      "x": 506,
+      "y": 121,
+      "z": 1,
+      "label": "Powerplay Container",
+      "description": ""
+    }
   ],
-   "labels": [
-  {
-    "x": 403,
-    "y": 302,
-    "text": "HAB"
-  },
-  {
-    "x": 495,
-    "y": 78,
-    "text": "PWR"
-  },
-  {
-    "x": 792,
-    "y": 132,
-    "text": "AGRI"
-  }
+  "labels": [
+    {
+      "x": 403,
+      "y": 302,
+      "text": "HAB"
+    },
+    {
+      "x": 495,
+      "y": 78,
+      "text": "PWR"
+    },
+    {
+      "x": 792,
+      "y": 132,
+      "text": "AGRI"
+    }
   ],
   "metadata": {
     "author": "Voz_DeCarabas",
     "updated": "2026-05-09",
     "game": "Elite Dangerous - Odyssey"
-  }
+  },
+  "keyPosition": "top-right"
 }

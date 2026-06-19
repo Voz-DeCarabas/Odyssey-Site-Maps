@@ -11,18 +11,16 @@ import {
     createToolbar
 } from './toolbar.js';
 
+import {
+    loadMarkerTypes,
+    createDefaultFilters
+} from './markerTypes.js';
+
 const state = {
 
-    filters: {
-        securityDoor: false,
-        airlock: true,
-        dataPort: true,
-        terminal: false,
-        power: false,
-        alarmPanel: true,
-        container: true,
-        hint: false
-    },
+    markerTypes: [],
+
+    filters: {},
 
     layout: null
 };
@@ -47,6 +45,17 @@ async function initialize() {
         console.error('Failed to load layout');
         return;
     }
+
+    // Load marker types for this category
+    state.markerTypes = await loadMarkerTypes(className);
+    
+    // Initialize filters based on loaded marker types
+    // Set a sensible default: hide hints, show most others
+    const defaultHidden = ['hint', 'terminal', 'power'];
+    state.markerTypes.forEach(markerType => {
+        state.filters[markerType.id] = !defaultHidden.includes(markerType.id);
+    });
+
     updateHeading();
 
     createToolbar(
@@ -54,7 +63,8 @@ async function initialize() {
         onFilterChanged,
         className,
         mapId,
-        currentIndex
+        currentIndex,
+        state.markerTypes
     );
 
     // Set toolbar position
@@ -91,7 +101,7 @@ async function initialize() {
         toolbar.style.flexDirection = 'row';
     }
 
-    positionMarkerKey(state.layout.keyPosition || 'top-right');
+    positionMarkerKey(state.layout.keyPosition);
 
     render();
 }
@@ -102,6 +112,12 @@ function positionMarkerKey(position) {
         return;
     }
 
+    if (!position) {
+        key.style.display = 'none';
+        return;
+    }
+
+    key.style.display = '';
     key.style.top = 'auto';
     key.style.bottom = 'auto';
     key.style.left = 'auto';

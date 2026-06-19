@@ -1,0 +1,84 @@
+{
+  "id": "resources_02",
+  "name": "Resource Depot 2",
+  "class": "resources",
+  "version": 1,
+  "toolbarPosition": "bottom-left",
+  "keyPosition": "top-right",
+  "image": {
+    "full": "images/full/mining_depot.png",
+    "width": 800,
+    "height": 600
+  },
+  "markers": [
+    {
+      "id": "minerals_01",
+      "type": "minerals",
+      "color": "#FFA07A",
+      "size": 25,
+      "x": 200,
+      "y": 250,
+      "z": 0,
+      "label": "Ore Storage",
+      "description": "Extracted ore awaiting processing",
+      "image": ""
+    },
+    {
+      "id": "minerals_02",
+      "type": "minerals",
+      "color": "#FFA07A",
+      "size": 25,
+      "x": 350,
+      "y": 280,
+      "z": 0,
+      "label": "Rare Minerals",
+      "description": "High-value mineral deposits",
+      "image": ""
+    },
+    {
+      "id": "fuel_01",
+      "type": "fuel",
+      "color": "#FFD93D",
+      "size": 25,
+      "x": 500,
+      "y": 350,
+      "z": 0,
+      "label": "Fuel Tank",
+      "description": "Operational fuel reserves",
+      "image": ""
+    },
+    {
+      "id": "equipment_02",
+      "type": "equipment",
+      "color": "#4ECDC4",
+      "size": 25,
+      "x": 650,
+      "y": 200,
+      "z": 0,
+      "label": "Mining Equipment",
+      "description": "Drills and extraction machinery",
+      "image": ""
+    },
+    {
+      "id": "entrance_02",
+      "type": "entrance",
+      "color": "#6BCB77",
+      "size": 30,
+      "x": 100,
+      "y": 500,
+      "z": 1,
+      "label": "Main Entrance",
+      "description": "Primary access point",
+      "image": ""
+    }
+  ],
+  "labels": [
+    {
+      "text": "MINING DEPOT",
+      "x": 400,
+      "y": 50,
+      "size": 28,
+      "color": "#333333"
+    }
+  ]
+}

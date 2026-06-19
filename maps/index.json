@@ -151,5 +151,12 @@
       "name": "High Tech 4 - small (+)",
       "thumbnail": "images/thumbnails/high_tech_04.png"
     } 
+  ],
+  "resources": [
+    {
+      "id": "resources_01",
+      "name": "Jameson's Crash Site",
+      "thumbnail": "images/thumbnails/jameson.png"
+    }
   ]
 }

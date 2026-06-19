@@ -1,0 +1,14 @@
+{
+  "markers": [
+    {
+      "id": "comms",
+      "label": "Comms Log",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "cannister",
+      "label": "Cannister Location",
+      "color": "#4ECDC4"
+    }
+  ]
+}

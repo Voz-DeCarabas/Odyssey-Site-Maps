@@ -9,409 +9,409 @@
     "width": 1280,
     "height": 720
   },
- 
   "markers": [
-  {
-    "id": "airlock_01",
-    "type": "airlock",
-    "securityLevel": 0,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 358,
-    "y": 358,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Open Airlock"
-  },
-  {
-    "id": "airlock_02",
-    "type": "airlock",
-    "securityLevel": 0,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 420,
-    "y": 299,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Open Airlock"
-  },
-  {
-    "id": "airlock_03",
-    "type": "airlock",
-    "securityLevel": 3,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 682,
-    "y": 285,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Open Airlock"
-  },
-  {
-    "id": "airlock_04",
-    "type": "airlock",
-    "securityLevel": 3,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 749,
-    "y": 344,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Open Airlock"
-  },
-  {
-    "id": "airlock_05",
-    "type": "airlock",
-    "securityLevel": 1,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 322,
-    "y": 455,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 1 access required"
-  },
-  {
-    "id": "airlock_06",
-    "type": "airlock",
-    "securityLevel": 2,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 374,
-    "y": 601,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "airlock_07",
-    "type": "airlock",
-    "securityLevel": 1,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 564,
-    "y": 576,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 1 access required"
-  },
-  {
-    "id": "airlock_08",
-    "type": "airlock",
-    "securityLevel": 1,
-    "color": "#0f02fa",
-    "size": 20,
-    "x": 764,
-    "y": 418,
-    "z": 0,
-    "label": "Airlock",
-    "description": "Level 1 access required"
-  },
-  {
-    "id": "door_01",
-    "type": "securityDoor",
-    "securityLevel": 3,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 315,
-    "y": 486,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 3 access required"
-  },
-  {
-    "id": "door_02",
-    "type": "securityDoor",
-    "securityLevel": 3,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 348,
-    "y": 575,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 3 access required"
-  },
-  {
-    "id": "door_03",
-    "type": "securityDoor",
-    "securityLevel": 3,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 326,
-    "y": 615,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 3 access required"
-  },
-  {
-    "id": "door_04",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 737,
-    "y": 430,
-    "z": 1,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_05",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 744,
-    "y": 443,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_06",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 790,
-    "y": 452,
-    "z": 1,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_07",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 807,
-    "y": 450,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_08",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 686,
-    "y": 516,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_09",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 813,
-    "y": 493,
-    "z": 0,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_10",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 669,
-    "y": 621,
-    "z": 1,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "door_11",
-    "type": "securityDoor",
-    "securityLevel": 2,
-    "color": "#02c2f3",
-    "size": 20,
-    "x": 772,
-    "y": 617,
-    "z": 1,
-    "label": "Security Door",
-    "description": "Level 2 access required"
-  },
-  {
-    "id": "terminal_01",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 390,
-    "y": 144,
-    "z": 0,
-    "label": "Terminal",
-    "description": ""
-  },
-  {
-    "id": "terminal_02",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 394,
-    "y": 298,
-    "z": 0,
-    "label": "Terminal",
-    "description": ""
-  },
-  {
-    "id": "terminal_03",
-    "type": "terminal",
-    "securityLevel": "",
-    "color": "#5afa57",
-    "size": 20,
-    "x": 353,
-    "y": 612,
-    "z": 0,
-    "label": "Terminal",
-    "description": ""
-  },
-  {
-    "id": "hint_01",
-    "type": "hint",
-    "securityLevel": "",
-    "color": "#198a0f",
-    "size": 20,
-    "x": 412,
-    "y": 649,
-    "z": 0,
-    "label": "Info",
-    "description": "Credit to CMDR Karl Berg for this map"
-  },
-  {
-    "id": "hint_02",
-    "type": "hint",
-    "securityLevel": "",
-    "color": "#198a0f",
-    "size": 20,
-    "x": 355,
-    "y": 549,
-    "z": 0,
-    "label": "Hint",
-    "description": "Difficult L3 scan with patrolling guards."
-  },
-  {
-    "id": "alarm_01",
-    "type": "alarmPanel",
-    "securityLevel": "",
-    "color": "#f0fc05",
-    "size": 20,
-    "x": 325,
-    "y": 588,
-    "z": 0,
-    "label": "Alarm Panel",
-    "description": ""
-  },
-  {
-    "id": "dataPort_01",
-    "type": "dataPort",
-    "securityLevel": "",
-    "color": "#8400ff",
-    "size": 20,
-    "x": 302,
-    "y": 591,
-    "z": 0,
-    "label": "Data Port",
-    "description": "Security Data Port 1 next to alarm panel"
-  },
-  {
-    "id": "dataPort_02",
-    "type": "dataPort",
-    "securityLevel": "",
-    "color": "#8400ff",
-    "size": 20,
-    "x": 348,
-    "y": 308,
-    "z": 0,
-    "label": "Data Port",
-    "description": "hab dataport"
-  },
-  {
-    "id": "dataPort_03",
-    "type": "dataPort",
-    "securityLevel": "",
-    "color": "#8400ff",
-    "size": 20,
-    "x": 724,
-    "y": 624,
-    "z": 1,
-    "label": "Data Port",
-    "description": "industrial dp"
-  },
-  {
-    "id": "container_01",
-    "type": "container",
-    "securityLevel": "",
-    "color": "#dd8ef5",
-    "size": 20,
-    "x": 298,
-    "y": 470,
-    "z": 0,
-    "label": "Powerplay Container",
-    "description": ""
-  },
-  {
-    "id": "container_01",
-    "type": "container",
-    "securityLevel": "",
-    "color": "#dd8ef5",
-    "size": 20,
-    "x": 863,
-    "y": 555,
-    "z": 0,
-    "label": "Powerplay Container",
-    "description": ""
-  }
+    {
+      "id": "airlock_01",
+      "type": "airlock",
+      "securityLevel": 0,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 358,
+      "y": 358,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Open Airlock"
+    },
+    {
+      "id": "airlock_02",
+      "type": "airlock",
+      "securityLevel": 0,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 420,
+      "y": 299,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Open Airlock"
+    },
+    {
+      "id": "airlock_03",
+      "type": "airlock",
+      "securityLevel": 3,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 682,
+      "y": 285,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Open Airlock"
+    },
+    {
+      "id": "airlock_04",
+      "type": "airlock",
+      "securityLevel": 3,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 749,
+      "y": 344,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Open Airlock"
+    },
+    {
+      "id": "airlock_05",
+      "type": "airlock",
+      "securityLevel": 1,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 322,
+      "y": 455,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 1 access required"
+    },
+    {
+      "id": "airlock_06",
+      "type": "airlock",
+      "securityLevel": 2,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 374,
+      "y": 601,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "airlock_07",
+      "type": "airlock",
+      "securityLevel": 1,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 564,
+      "y": 576,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 1 access required"
+    },
+    {
+      "id": "airlock_08",
+      "type": "airlock",
+      "securityLevel": 1,
+      "color": "#0f02fa",
+      "size": 20,
+      "x": 764,
+      "y": 418,
+      "z": 0,
+      "label": "Airlock",
+      "description": "Level 1 access required"
+    },
+    {
+      "id": "door_01",
+      "type": "securityDoor",
+      "securityLevel": 3,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 315,
+      "y": 486,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 3 access required"
+    },
+    {
+      "id": "door_02",
+      "type": "securityDoor",
+      "securityLevel": 3,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 348,
+      "y": 575,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 3 access required"
+    },
+    {
+      "id": "door_03",
+      "type": "securityDoor",
+      "securityLevel": 3,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 326,
+      "y": 615,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 3 access required"
+    },
+    {
+      "id": "door_04",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 737,
+      "y": 430,
+      "z": 1,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_05",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 744,
+      "y": 443,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_06",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 790,
+      "y": 452,
+      "z": 1,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_07",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 807,
+      "y": 450,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_08",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 686,
+      "y": 516,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_09",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 813,
+      "y": 493,
+      "z": 0,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_10",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 669,
+      "y": 621,
+      "z": 1,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "door_11",
+      "type": "securityDoor",
+      "securityLevel": 2,
+      "color": "#02c2f3",
+      "size": 20,
+      "x": 772,
+      "y": 617,
+      "z": 1,
+      "label": "Security Door",
+      "description": "Level 2 access required"
+    },
+    {
+      "id": "terminal_01",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 390,
+      "y": 144,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_02",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 394,
+      "y": 298,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "terminal_03",
+      "type": "terminal",
+      "securityLevel": "",
+      "color": "#5afa57",
+      "size": 20,
+      "x": 353,
+      "y": 612,
+      "z": 0,
+      "label": "Terminal",
+      "description": ""
+    },
+    {
+      "id": "hint_01",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 412,
+      "y": 649,
+      "z": 0,
+      "label": "Info",
+      "description": "Credit to CMDR Karl Berg for this map"
+    },
+    {
+      "id": "hint_02",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 355,
+      "y": 549,
+      "z": 0,
+      "label": "Hint",
+      "description": "Difficult L3 scan with patrolling guards."
+    },
+    {
+      "id": "alarm_01",
+      "type": "alarmPanel",
+      "securityLevel": "",
+      "color": "#f0fc05",
+      "size": 20,
+      "x": 325,
+      "y": 588,
+      "z": 0,
+      "label": "Alarm Panel",
+      "description": ""
+    },
+    {
+      "id": "dataPort_01",
+      "type": "dataPort",
+      "securityLevel": "",
+      "color": "#8400ff",
+      "size": 20,
+      "x": 302,
+      "y": 591,
+      "z": 0,
+      "label": "Data Port",
+      "description": "Security Data Port 1 next to alarm panel"
+    },
+    {
+      "id": "dataPort_02",
+      "type": "dataPort",
+      "securityLevel": "",
+      "color": "#8400ff",
+      "size": 20,
+      "x": 348,
+      "y": 308,
+      "z": 0,
+      "label": "Data Port",
+      "description": "hab dataport"
+    },
+    {
+      "id": "dataPort_03",
+      "type": "dataPort",
+      "securityLevel": "",
+      "color": "#8400ff",
+      "size": 20,
+      "x": 724,
+      "y": 624,
+      "z": 1,
+      "label": "Data Port",
+      "description": "industrial dp"
+    },
+    {
+      "id": "container_01",
+      "type": "container",
+      "securityLevel": "",
+      "color": "#dd8ef5",
+      "size": 20,
+      "x": 298,
+      "y": 470,
+      "z": 0,
+      "label": "Powerplay Container",
+      "description": ""
+    },
+    {
+      "id": "container_01",
+      "type": "container",
+      "securityLevel": "",
+      "color": "#dd8ef5",
+      "size": 20,
+      "x": 863,
+      "y": 555,
+      "z": 0,
+      "label": "Powerplay Container",
+      "description": ""
+    }
   ],
- "labels": [
-  {
-    "x": 363,
-    "y": 251,
-    "text": "HAB"
-  },
-  {
-    "x": 709,
-    "y": 305,
-    "text": "PWR"
-  },
-  {
-    "x": 288,
-    "y": 540,
-    "text": "CMD"
-  },
-  {
-    "x": 683,
-    "y": 483,
-    "text": "LAB"
-  },
-  {
-    "x": 842,
-    "y": 455,
-    "text": "PROC"
-  },
-  {
-    "x": 708,
-    "y": 574,
-    "text": "IND"
-  },
-  {
-    "x": 694,
-    "y": 632,
-    "text": "PROC"
-  }
+  "labels": [
+    {
+      "x": 363,
+      "y": 251,
+      "text": "HAB"
+    },
+    {
+      "x": 709,
+      "y": 305,
+      "text": "PWR"
+    },
+    {
+      "x": 288,
+      "y": 540,
+      "text": "CMD"
+    },
+    {
+      "x": 683,
+      "y": 483,
+      "text": "LAB"
+    },
+    {
+      "x": 842,
+      "y": 455,
+      "text": "PROC"
+    },
+    {
+      "x": 708,
+      "y": 574,
+      "text": "IND"
+    },
+    {
+      "x": 694,
+      "y": 632,
+      "text": "PROC"
+    }
   ],
   "metadata": {
     "author": "Voz_DeCarabas",
     "updated": "2026-05-09",
     "game": "Elite Dangerous - Odyssey"
-  }
+  },
+  "keyPosition": "top-right"
 }

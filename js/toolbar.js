@@ -1,56 +1,15 @@
-const BUTTONS = [
-
-   
-   
-    {
-        type: 'airlock',
-        label: '● Airlock',
-        color: '#0f02fa'
-    },
-    
-    {
-        type: 'securityDoor',
-        label: '● Inner Doors',
-        color: '#02c2f7'
-    },
-
-    {
-        type: 'dataPort',
-        label: '● Data Ports',
-        color: '#8400ff'
-    },
-
-    {
-        type: 'terminal',
-        label: '● Terminals',
-        color: '#00ff66'
-    },
-
-    {
-        type: 'alarmPanel',
-        label: '● Alarm Panel',
-        color: '#f0fc05'
-    },
-
-    {
-        type: 'container',
-        label: '● PP Containers',
-        color: '#dd8ef5'
-    },
-
-    {
-        type: 'hint',
-        label: '● Hints',
-        color: '#16ac09'
-    }
-];
+/**
+ * Toolbar for map marker filtering
+ * Dynamically loads marker types from category configuration
+ */
 
 export function createToolbar(
     filters,
     callback,
     currentClass,
     currentMapId,
-    index
+    index,
+    markerTypes = []
 ) {
 
     const toolbar =
@@ -59,7 +18,7 @@ export function createToolbar(
     // Clear existing toolbar
     toolbar.innerHTML = '';
 
-    BUTTONS.forEach(buttonData => {
+    markerTypes.forEach(markerType => {
 
         const button =
             document.createElement('button');
@@ -68,23 +27,23 @@ export function createToolbar(
             'toolbarButton';
 
         // Start active if enabled
-        if (filters[buttonData.type]) {
+        if (filters[markerType.id]) {
 
             button.classList.add('active');
         }
 
-        // Label
+        // Label with color indicator
         button.innerHTML = `
 
             <span
                 class="toolbarIcon"
-                style="color:${buttonData.color}"
+                style="color:${markerType.color}"
             >
-                ${buttonData.label.charAt(0)}
+                ●
             </span>
 
             <span>
-                ${buttonData.label.substring(2)}
+                ${markerType.label}
             </span>
         `;
 
@@ -94,7 +53,7 @@ export function createToolbar(
            
             button.classList.toggle('active');
 
-            callback(buttonData.type);
+            callback(markerType.id);
         });
 
         toolbar.appendChild(button);

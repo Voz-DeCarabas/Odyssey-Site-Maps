@@ -1,0 +1,39 @@
+{
+  "markers": [
+    {
+      "id": "airlock",
+      "label": "Airlock",
+      "color": "#0f02fa"
+    },
+    {
+      "id": "securityDoor",
+      "label": "Inner Doors",
+      "color": "#02c2f7"
+    },
+    {
+      "id": "dataPort",
+      "label": "Data Ports",
+      "color": "#8400ff"
+    },
+    {
+      "id": "terminal",
+      "label": "Terminals",
+      "color": "#00ff66"
+    },
+    {
+      "id": "alarmPanel",
+      "label": "Alarm Panel",
+      "color": "#f0fc05"
+    },
+    {
+      "id": "container",
+      "label": "PP Containers",
+      "color": "#dd8ef5"
+    },
+    {
+      "id": "hint",
+      "label": "Hints",
+      "color": "#16ac09"
+    }
+  ]
+}
