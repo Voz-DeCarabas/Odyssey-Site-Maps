@@ -7,8 +7,8 @@
   "keyPosition": "",
   "image": {
     "full": "images/full/davs_hope.png",
-    "width": 800,
-    "height": 600
+    "width": 1280,
+    "height": 720
   },
   "markers": [
     {
@@ -233,10 +233,10 @@
   "labels": [
     {
       "text": "Abandoned Mining Settlement",
-      "x": 400,
-      "y": 50,
-      "size": 28,
-      "color": "#333333"
+       "x": 500,
+      "y": 100,
+      "size": 18,
+      "color": "#FFFFFF"
     }
   ]
 }

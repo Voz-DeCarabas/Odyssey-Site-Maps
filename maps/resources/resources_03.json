@@ -1,0 +1,25 @@
+{
+  "id": "resources_03",
+  "name": "Guardian Ruins",
+  "class": "resources",
+  "version": 1,
+  "toolbarPosition": "",
+  "keyPosition": "",
+  "image": {
+    "full": "images/full/guardian.png",
+    "width": 1280,
+    "height": 720
+  },
+  "markers": [],
+  "labels": [
+    {
+      "text": "For maps of different Guardian Ruins, see the Canonn Ruins Database",
+      "url": "https://ruins.canonn.tech/",
+      "urlText": "Canonn Ruins",
+      "x": 200,
+      "y": 50,
+      "size": 28,
+      "color": "#000000"
+    }
+  ]
+}

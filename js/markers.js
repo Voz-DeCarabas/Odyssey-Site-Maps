@@ -66,6 +66,11 @@ export function createMarker(marker, imageWidth = 1, imageHeight = 1) {
 
         event.stopPropagation();
 
+        if (marker.url) {
+            window.open(marker.url, '_blank', 'noopener');
+            return;
+        }
+
         showInfo(marker);
     });
 
@@ -87,7 +92,7 @@ export function createLabel(label, imageWidth = 1, imageHeight = 1) {
 
     div.style.top = `${(label.y / height * 100)}%`;
 
-    div.style.color = 'white';
+    div.style.color = label.color || 'white';
 
     div.style.fontWeight = 'bold';
 
@@ -95,7 +100,55 @@ export function createLabel(label, imageWidth = 1, imageHeight = 1) {
 
     div.style.zIndex = '600';
 
-    div.textContent = label.text;
+    if (label.size) {
+        div.style.fontSize = `${label.size}px`;
+    }
+
+    // Ensure clicks work when the label contains links (overrides CSS pointer-events:none)
+    if (label.url) {
+        div.style.pointerEvents = 'auto';
+    }
+
+    // If a URL is provided for the label, make the specified portion clickable.
+    if (label.url) {
+        const text = label.text || '';
+        const urlText = label.urlText || text;
+
+        const idx = text.indexOf(urlText);
+
+        if (idx !== -1) {
+            if (idx > 0) {
+                div.appendChild(document.createTextNode(text.slice(0, idx)));
+            }
+
+            const a = document.createElement('a');
+            a.href = label.url;
+            a.textContent = urlText;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.style.color = 'inherit';
+            a.style.textDecoration = 'underline';
+            div.appendChild(a);
+
+            const rest = text.slice(idx + urlText.length);
+            if (rest) {
+                div.appendChild(document.createTextNode(rest));
+            }
+        } else {
+            // urlText not found in text — append whole text and a link
+            div.textContent = text + ' ';
+            const a = document.createElement('a');
+            a.href = label.url;
+            a.textContent = label.urlText || label.url;
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.style.color = 'inherit';
+            a.style.textDecoration = 'underline';
+            div.appendChild(a);
+        }
+    } else {
+        div.textContent = label.text;
+    }
 
     return div;
 }
@@ -132,6 +185,12 @@ function showInfo(marker) {
         ${
             marker.description
                 ? `<p>${marker.description}</p>`
+                : ''
+        }
+
+        ${
+            marker.url
+                ? `<p><a href="${marker.url}" target="_blank" rel="noopener noreferrer">${marker.urlText || marker.url}</a></p>`
                 : ''
         }
 

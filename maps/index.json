@@ -162,6 +162,11 @@
       "id": "resources_02",
       "name": "Dav's Hope",
       "thumbnail": "images/thumbnails/davs_hope.png"
+    },
+    {
+      "id": "resources_03",
+      "name": "Guardian Ruins",
+      "thumbnail": "images/thumbnails/guardian.png"
     }
   ]
 }
