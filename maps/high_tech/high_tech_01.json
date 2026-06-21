@@ -505,6 +505,19 @@
       "image": "images/other/scan_9.png"
     },
     {
+      "id": "hint_02",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 622,
+      "y": 528,
+      "z": 1,
+      "label": "Hint",
+      "description": "Alternative advanced mode scan. Prop your SRV against the window here and  balance on top!",
+      "image": "images/other/scan_23.png"
+    },
+    {
       "id": "alarm_01",
       "type": "alarmPanel",
       "securityLevel": "",

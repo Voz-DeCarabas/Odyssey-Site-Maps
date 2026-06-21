@@ -3,17 +3,21 @@ body {
     user-select: none;
     background: #101010;
     font-family: 'Michroma', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #viewer {
     position: relative;
     display: block;
+    width: 100%;
 }
 
 #mapImage {
     display: block;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 
 #layoutHeading {

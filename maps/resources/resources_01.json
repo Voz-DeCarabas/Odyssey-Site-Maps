@@ -120,7 +120,7 @@
       "image": ""
     },
     {
-      "id": "material_01",
+      "id": "cannister_01",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -132,7 +132,7 @@
       "image": ""
     },
     {
-      "id": "material_02",
+      "id": "cannister_02",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -144,7 +144,7 @@
       "image": ""
     },
     {
-      "id": "material_03",
+      "id": "cannister_03",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -157,7 +157,7 @@
     }
     ,
     {
-      "id": "material_04",
+      "id": "cannister_04",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -169,7 +169,7 @@
       "image": ""
     },
     {
-      "id": "material_05",
+      "id": "cannister_05",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -181,7 +181,7 @@
       "image": ""
     },
     {
-      "id": "material_06",
+      "id": "cannister_06",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -193,7 +193,7 @@
       "image": ""
     },
     {
-      "id": "material_07",
+      "id": "cannister_07",
       "type": "cannister",
       "color": "#4ECDC4",
       "size": 15,
@@ -202,6 +202,19 @@
       "z": 0,
       "label": "Cargo Cannister",
       "description": "",
+      "image": ""
+    },
+    {
+      "id": "hint_01",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 625,
+      "y": 412,
+      "z": 0,
+      "label": "Info",
+      "description": "Scan the comms logs to find out what happened to CMDR Jameson. The comms logs are scattered around the crash site and provide encoded materials.",
       "image": ""
     }
   ],

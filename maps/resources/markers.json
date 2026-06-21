@@ -2,13 +2,23 @@
   "markers": [
     {
       "id": "comms",
-      "label": "Comms Log",
+      "label": "Comms/Data",
       "color": "#FF6B6B"
     },
     {
       "id": "cannister",
       "label": "Cannister Location",
       "color": "#4ECDC4"
+    },
+    {
+      "id": "material",
+      "label": "Material Location",
+      "color": "#0f02fa"
+    },
+    {
+      "id": "hint",
+      "label": "Hints",
+      "color": "#16ac09"
     }
   ]
 }

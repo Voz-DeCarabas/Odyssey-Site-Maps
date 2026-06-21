@@ -157,6 +157,11 @@
       "id": "resources_01",
       "name": "Jameson's Crash Site",
       "thumbnail": "images/thumbnails/jameson.png"
+    },
+    {
+      "id": "resources_02",
+      "name": "Dav's Hope",
+      "thumbnail": "images/thumbnails/davs_hope.png"
     }
   ]
 }

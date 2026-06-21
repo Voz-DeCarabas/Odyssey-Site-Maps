@@ -51,7 +51,7 @@ async function initialize() {
     
     // Initialize filters based on loaded marker types
     // Set a sensible default: hide hints, show most others
-    const defaultHidden = ['hint', 'terminal', 'power'];
+    const defaultHidden = ['hint', 'terminal'];
     state.markerTypes.forEach(markerType => {
         state.filters[markerType.id] = !defaultHidden.includes(markerType.id);
     });
@@ -194,5 +194,14 @@ function onFilterChanged(type) {
 
     render();
 }
+
+// Handle window resizing with debouncing to reposition markers
+let resizeTimeout;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        render();
+    }, 150);
+});
 
 initialize();
