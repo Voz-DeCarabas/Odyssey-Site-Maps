@@ -1,7 +1,9 @@
 import { readdir, readFile } from 'node:fs/promises';
+import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
+import { getMarkerImages, buildMarkerImageMarkup } from '../js/markerImages.js';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -100,10 +102,27 @@ async function validateIndexShape(indexPath) {
     return errors;
 }
 
+function validateMarkerImageSupport() {
+    const marker = {
+        label: 'Test marker',
+        image: 'images/one.png',
+        image2: 'images/two.png'
+    };
+
+    const images = getMarkerImages(marker);
+    assert.deepEqual(images, ['images/one.png', 'images/two.png']);
+
+    const markup = buildMarkerImageMarkup(marker);
+    assert.match(markup, /images\/one\.png/);
+    assert.match(markup, /images\/two\.png/);
+}
+
 async function main() {
     const jsDir = path.join(rootDir, 'js');
     const mapsDir = path.join(rootDir, 'maps');
     const indexPath = path.join(mapsDir, 'index.json');
+
+    validateMarkerImageSupport();
 
     const [jsFiles, jsonFiles] = await Promise.all([
         walkFiles(jsDir, '.js'),

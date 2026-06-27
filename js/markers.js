@@ -1,3 +1,5 @@
+import { buildMarkerImageMarkup } from './markerImages.js';
+
 export function createMarker(marker, imageWidth = 1, imageHeight = 1) {
 
     const width = imageWidth || 1;
@@ -195,15 +197,7 @@ function showInfo(marker) {
         }
 
        
-        ${
-            marker.image
-                ? `
-                    <div class="markerImage">
-                        <img src="${marker.image}" alt="${marker.label || 'Marker image'}">
-                    </div>
-                  `
-                : ''
-        }
+        ${buildMarkerImageMarkup(marker)}
     `;
 
     // Show popup

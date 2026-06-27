@@ -18,8 +18,19 @@ export function renderMap(layout, filters) {
         const originalWidth = image.naturalWidth || layout.image.width || 1;
         const originalHeight = image.naturalHeight || layout.image.height || 1;
 
-        viewer.style.width = `${image.offsetWidth}px`;
-        viewer.style.height = `${image.offsetHeight}px`;
+        const maxWidth = Math.max(1, window.innerWidth - 20);
+        const maxHeight = Math.max(1, window.innerHeight - 20);
+        const widthScale = originalWidth > 0 ? maxWidth / originalWidth : 1;
+        const heightScale = originalHeight > 0 ? maxHeight / originalHeight : 1;
+        const scale = Math.min(1, widthScale, heightScale);
+
+        const renderedWidth = Math.max(1, Math.round(originalWidth * scale));
+        const renderedHeight = Math.max(1, Math.round(originalHeight * scale));
+
+        image.style.width = `${renderedWidth}px`;
+        image.style.height = `${renderedHeight}px`;
+        viewer.style.width = `${renderedWidth}px`;
+        viewer.style.height = `${renderedHeight}px`;
 
         overlay.innerHTML = '';
 

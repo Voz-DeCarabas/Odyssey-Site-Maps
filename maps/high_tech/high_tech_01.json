@@ -515,7 +515,21 @@
       "z": 1,
       "label": "Hint",
       "description": "Alternative advanced mode scan. Prop your SRV against the window here and  balance on top!",
-      "image": "images/other/scan_23.png"
+      "image": "images/other/scan_23.png",
+      "image2": ""
+    },
+    {
+      "id": "hint_03",
+      "type": "hint",
+      "securityLevel": "",
+      "color": "#198a0f",
+      "size": 20,
+      "x": 377,
+      "y": 328,
+      "z": 0,
+      "label": "Credit",
+      "description": "Credit to CMDR Charlieee1 for the alternative advanced mode scan method.",
+      "image": ""
     },
     {
       "id": "alarm_01",
