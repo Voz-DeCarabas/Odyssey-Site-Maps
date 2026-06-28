@@ -307,7 +307,9 @@
       "z": 1,
       "label": "Hint",
       "description": "Jump to the ledge and position to just see a sliver of the L3 for scan",
-      "image": "images/other/scan_19.png"
+      "image": "images/other/scan_18.png",
+      "image2": "images/other/scan_19.png"
+
     },
     {
       "id": "alarm_01",

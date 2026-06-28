@@ -119,8 +119,8 @@
       "z": 1,
       "label": "Hint",
       "description": "Jump up to left hand window and careful to make sure they can't see you!",
-      "image": "images/other/scan_17.png",
-      "": ""
+      "image": "images/other/scan_16.png",
+      "image2": "images/other/scan_17.png"
     },
     {
       "id": "alarm_01",

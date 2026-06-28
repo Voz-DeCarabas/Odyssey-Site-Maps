@@ -203,7 +203,8 @@
       "z": 1,
       "label": "Hint",
       "description": "Stand on the crate and scan the legs of the L3 through the window.  If you can't see their face, they can't see you!",
-      "image": "images/other/scan_12.png"
+      "image": "images/other/scan_11.png",
+      "image2": "images/other/scan_12.png"
     },
     {
       "id": "hint_02",

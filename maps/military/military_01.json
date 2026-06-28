@@ -255,7 +255,8 @@
       "z": 1,
       "label": "Hint",
       "description": "L3 scan from above the window.  Make sure you can not see their face!",
-      "image": "images/other/scan_14.png"
+      "image": "images/other/scan_13.png",
+      "image2": "images/other/scan_14.png"
     },
     {
       "id": "hint_02",
