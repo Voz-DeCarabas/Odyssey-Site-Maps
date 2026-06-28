@@ -516,7 +516,7 @@
       "label": "Hint",
       "description": "Alternative advanced mode scan. Prop your SRV against the window here and  balance on top!",
       "image": "images/other/scan_23.png",
-      "image2": ""
+      "image2": "images/other/scan_24.png"
     },
     {
       "id": "hint_03",
