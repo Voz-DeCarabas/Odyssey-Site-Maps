@@ -9,13 +9,13 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 10px;
 
     border-bottom: 1px solid #333;
 }
 
 footer {
-    padding: 30px;
+    padding: 10px;
 
     border-top: 1px solid #333;
 }
@@ -29,11 +29,11 @@ h1 {
 }
 
 #content {
-    padding: 30px;
+    padding: 10px;
 }
 
 .section {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .sectionTitle {
@@ -41,7 +41,7 @@ h1 {
     
     font-family: 'Michroma', sans-serif;
     
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     text-transform: uppercase;
 
@@ -54,7 +54,7 @@ h1 {
     grid-template-columns:
         repeat(auto-fill, minmax(240px, 1fr));
 
-    gap: 20px;
+    gap: 10px;
 }
 
 .thumbnail {
@@ -89,7 +89,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 0 30px 20px;
+    padding: 0 10px 10px;
 }
 
 .siteTypeButton {
