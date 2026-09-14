@@ -3,6 +3,12 @@ import {
     createLabel
 } from './markers.js';
 
+export function calculateRenderScale(originalWidth, originalHeight, maxWidth, maxHeight) {
+    const widthScale = originalWidth > 0 ? maxWidth / originalWidth : 1;
+    const heightScale = originalHeight > 0 ? maxHeight / originalHeight : 1;
+    return Math.min(widthScale, heightScale);
+}
+
 export function renderMap(layout, filters) {
 
     const image =
@@ -20,9 +26,7 @@ export function renderMap(layout, filters) {
 
         const maxWidth = Math.max(1, window.innerWidth - 20);
         const maxHeight = Math.max(1, window.innerHeight - 20);
-        const widthScale = originalWidth > 0 ? maxWidth / originalWidth : 1;
-        const heightScale = originalHeight > 0 ? maxHeight / originalHeight : 1;
-        const scale = Math.min(1, widthScale, heightScale);
+        const scale = calculateRenderScale(originalWidth, originalHeight, maxWidth, maxHeight);
 
         const renderedWidth = Math.max(1, Math.round(originalWidth * scale));
         const renderedHeight = Math.max(1, Math.round(originalHeight * scale));

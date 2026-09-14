@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { getMarkerImages, buildMarkerImageMarkup } from '../js/markerImages.js';
+import { calculateRenderScale } from '../js/renderer.js';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');
@@ -117,12 +118,21 @@ function validateMarkerImageSupport() {
     assert.match(markup, /images\/two\.png/);
 }
 
+function validateRenderScale() {
+    const scale = calculateRenderScale(1200, 600, 1600, 900);
+    assert.equal(scale, 1.3333333333333333);
+
+    const shrinkScale = calculateRenderScale(2000, 1000, 1280, 720);
+    assert.equal(shrinkScale, 0.64);
+}
+
 async function main() {
     const jsDir = path.join(rootDir, 'js');
     const mapsDir = path.join(rootDir, 'maps');
     const indexPath = path.join(mapsDir, 'index.json');
 
     validateMarkerImageSupport();
+    validateRenderScale();
 
     const [jsFiles, jsonFiles] = await Promise.all([
         walkFiles(jsDir, '.js'),

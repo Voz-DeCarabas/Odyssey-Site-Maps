@@ -47,12 +47,39 @@ export function createToolbar(
             </span>
         `;
 
-        // Toggle filter
+        // Toggle filter on click, and for mouse users preview the toggle while hovering.
+        let hoverStateApplied = false;
+
         button.addEventListener('click', () => {
-
-           
             button.classList.toggle('active');
+            callback(markerType.id);
+        });
 
+        button.addEventListener('pointerenter', event => {
+            if (event.pointerType !== 'mouse') {
+                return;
+            }
+
+            if (hoverStateApplied) {
+                return;
+            }
+
+            hoverStateApplied = true;
+            button.classList.toggle('active');
+            callback(markerType.id);
+        });
+
+        button.addEventListener('pointerleave', event => {
+            if (event.pointerType !== 'mouse') {
+                return;
+            }
+
+            if (!hoverStateApplied) {
+                return;
+            }
+
+            hoverStateApplied = false;
+            button.classList.toggle('active');
             callback(markerType.id);
         });
 
