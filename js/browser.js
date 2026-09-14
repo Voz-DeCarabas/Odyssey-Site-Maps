@@ -155,7 +155,7 @@ function renderIntro(index) {
     section.appendChild(p2);
 
     const p3 = document.createElement('p');
-    p3.textContent = 'Note: Data terminals and PP Containers can very in location but the numbers should be correct in each building/map';
+    p3.textContent = 'Note: Data terminals and PP Containers can vary in location but the numbers should be correct in each building/map';
     section.appendChild(p3);
 
     const p4 = document.createElement('p');
