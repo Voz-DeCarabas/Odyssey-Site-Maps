@@ -155,8 +155,12 @@ function renderIntro(index) {
     section.appendChild(p2);
 
     const p3 = document.createElement('p');
-    p3.textContent = 'Use the GitHub link above for the code or to contact me with any questions or suggestions. Enjoy exploring the sites! o7';
+    p3.textContent = 'Note: Data terminals and PP Containers can very in location but the numbers should be correct in each building/map';
     section.appendChild(p3);
+
+    const p4 = document.createElement('p');
+    p4.textContent = 'Use the GitHub link above for the code or to contact me with any questions or suggestions. Enjoy exploring the sites! o7';
+    section.appendChild(p4);
 
  
     content.appendChild(section);
