@@ -168,5 +168,12 @@
       "name": "Guardian Ruins",
       "thumbnail": "images/thumbnails/guardian.png"
     }
+  ],
+  "operations": [
+    {
+      "id": "operations_01",
+      "name": "Megaship Deck Map",
+      "thumbnail": "images/thumbnails/operations.png"
+    }
   ]
 }

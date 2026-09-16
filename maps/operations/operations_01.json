@@ -1,0 +1,25 @@
+{
+  "id": "operations_01",
+  "name": "Megaship Deck Map",
+  "class": "operations",
+  "version": 1,
+  "toolbarPosition": "",
+  "keyPosition": "",
+  "image": {
+    "full": "images/full/operations.png",
+    "width": 1280,
+    "height": 720
+  },
+  "markers": [],
+  "labels": [
+    {
+      "text": "For detailed Megaship maps for use in Operations, follow the link to the site from CMDR Indy Novascend and CMDR Jules Vector ",
+      "url": "https://elite-pilots-initiative.github.io/EPI-Operational-Resources/maps.html",
+      "urlText": "Megaship maps",
+      "x": 100,
+      "y": 200,
+      "size": 38,
+      "color": "#FFFFFF"
+    }
+  ]
+}
