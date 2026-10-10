@@ -1,3 +1,4 @@
+(function () {
 function normalizeImageValue(value) {
     if (typeof value !== 'string') {
         return '';
@@ -6,7 +7,7 @@ function normalizeImageValue(value) {
     return value.trim();
 }
 
-export function getMarkerImages(marker = {}) {
+function getMarkerImages(marker = {}) {
     const images = [];
 
     const primaryImage = normalizeImageValue(marker.image);
@@ -22,7 +23,7 @@ export function getMarkerImages(marker = {}) {
     return images;
 }
 
-export function buildMarkerImageMarkup(marker = {}) {
+function buildMarkerImageMarkup(marker = {}) {
     const images = getMarkerImages(marker);
 
     if (images.length === 0) {
@@ -35,3 +36,10 @@ export function buildMarkerImageMarkup(marker = {}) {
         </div>
     `).join('');
 }
+
+globalThis.OdysseyMaps = globalThis.OdysseyMaps || {};
+Object.assign(globalThis.OdysseyMaps, {
+    getMarkerImages,
+    buildMarkerImageMarkup
+});
+})();

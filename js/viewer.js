@@ -1,20 +1,12 @@
-import {
+(function () {
+const {
     loadIndex,
-    loadLayout
-} from './maps.js';
-
-import {
-    renderMap
-} from './renderer.js';
-
-import {
-    createToolbar
-} from './toolbar.js';
-
-import {
+    loadLayout,
+    renderMap,
+    createToolbar,
     loadMarkerTypes,
     createDefaultFilters
-} from './markerTypes.js';
+} = globalThis.OdysseyMaps;
 
 const state = {
 
@@ -205,3 +197,4 @@ window.addEventListener('resize', () => {
 });
 
 initialize();
+})();

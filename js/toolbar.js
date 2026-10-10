@@ -1,9 +1,10 @@
+(function () {
 /**
  * Toolbar for map marker filtering
  * Dynamically loads marker types from category configuration
  */
 
-export function createToolbar(
+function createToolbar(
     filters,
     callback,
     currentClass,
@@ -165,3 +166,7 @@ function navigateNeighbor(direction, currentClass, currentMapId, index) {
     window.location.href =
         `viewer.html?class=${encodeURIComponent(nextEntry.className)}&map=${encodeURIComponent(nextEntry.mapId)}`;
 }
+
+globalThis.OdysseyMaps = globalThis.OdysseyMaps || {};
+Object.assign(globalThis.OdysseyMaps, { createToolbar });
+})();

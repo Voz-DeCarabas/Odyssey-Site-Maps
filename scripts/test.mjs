@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { getMarkerImages, buildMarkerImageMarkup } from '../js/markerImages.js';
-import { calculateRenderScale } from '../js/renderer.js';
+import '../js/markerImages.js';
+import '../js/renderer.js';
+
+const { getMarkerImages, buildMarkerImageMarkup, calculateRenderScale } = globalThis.OdysseyMaps;
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, '..');

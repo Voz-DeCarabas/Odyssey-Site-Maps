@@ -1,3 +1,4 @@
+(function () {
 /**
  * Dynamic marker type management
  * Loads marker type definitions from category-specific config files
@@ -10,20 +11,18 @@ const markerTypeCache = {};
  * @param {string} categoryName - The category name (e.g., 'tourism', 'agriculture')
  * @returns {Promise<Array>} Array of marker type objects with id, label, color
  */
-export async function loadMarkerTypes(categoryName) {
+async function loadMarkerTypes(categoryName) {
     // Return cached result if available
     if (markerTypeCache[categoryName]) {
         return markerTypeCache[categoryName];
     }
 
     try {
-        const response = await fetch(`maps/${categoryName}/markers.json`);
-        if (!response.ok) {
+        const data = globalThis.ODYSSEY_MAP_DATA.markerTypes[categoryName];
+        if (!data) {
             console.warn(`Marker types not found for category: ${categoryName}, using defaults`);
             return getDefaultMarkerTypes();
         }
-
-        const data = await response.json();
         const markerTypes = data.markers || [];
         
         // Cache the result
@@ -85,10 +84,17 @@ function getDefaultMarkerTypes() {
  * @param {Array} markerTypes - Array of marker type objects
  * @returns {Object} Filters object with all marker types set to false by default
  */
-export function createDefaultFilters(markerTypes) {
+function createDefaultFilters(markerTypes) {
     const filters = {};
     markerTypes.forEach(markerType => {
         filters[markerType.id] = false;
     });
     return filters;
 }
+
+globalThis.OdysseyMaps = globalThis.OdysseyMaps || {};
+Object.assign(globalThis.OdysseyMaps, {
+    loadMarkerTypes,
+    createDefaultFilters
+});
+})();

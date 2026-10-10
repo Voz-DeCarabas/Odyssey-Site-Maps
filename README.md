@@ -1,5 +1,13 @@
 # Odyssey Site Maps
 
+## Run Locally
+
+The project can be used without a web server. Copy the complete project folder, including `js/offlineData.js`, to the local PC and open `browser.html` in a browser. The viewer and its map images work from the same folder.
+
+When map JSON files are added or changed, run `npm run build` before copying or opening the project so `js/offlineData.js` is regenerated from the JSON source files.
+
+## Background
+ 
 Having used the incredibly helpful Odyssey Map Guide (OMG) by CMDR Quizengine https://github.com/Quizengine/OMG I've felt that there are a few things that I would like to see added.
 Sadly CMDR Quizengine passed away and the code that remains is very hard to follow.  It was created in Adobe Animate CC and uses a very flat structure that although efficient doesn't lend itself to easy extension.
 

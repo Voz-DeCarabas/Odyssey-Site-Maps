@@ -1,6 +1,7 @@
-import { buildMarkerImageMarkup } from './markerImages.js';
+(function () {
+const { buildMarkerImageMarkup } = globalThis.OdysseyMaps;
 
-export function createMarker(marker, imageWidth = 1, imageHeight = 1) {
+function createMarker(marker, imageWidth = 1, imageHeight = 1) {
 
     const width = imageWidth || 1;
     const height = imageHeight || 1;
@@ -79,7 +80,7 @@ export function createMarker(marker, imageWidth = 1, imageHeight = 1) {
     return div;
 }
 
-export function createLabel(label, imageWidth = 1, imageHeight = 1) {
+function createLabel(label, imageWidth = 1, imageHeight = 1) {
 
     const width = imageWidth || 1;
     const height = imageHeight || 1;
@@ -233,3 +234,7 @@ document.addEventListener('click', event => {
         popup.style.display = 'none';
     }
 });
+
+globalThis.OdysseyMaps = globalThis.OdysseyMaps || {};
+Object.assign(globalThis.OdysseyMaps, { createMarker, createLabel });
+})();

@@ -1,6 +1,5 @@
-import {
-    loadIndex
-} from './maps.js';
+(function () {
+const { loadIndex } = globalThis.OdysseyMaps;
 
 let selectedType = 'intro';
 let currentIndex = null;
@@ -175,3 +174,4 @@ function formatName(name) {
 }
 
 initialize();
+})();

@@ -1,15 +1,13 @@
-import {
-    createMarker,
-    createLabel
-} from './markers.js';
+(function () {
+const { createMarker, createLabel } = globalThis.OdysseyMaps;
 
-export function calculateRenderScale(originalWidth, originalHeight, maxWidth, maxHeight) {
+function calculateRenderScale(originalWidth, originalHeight, maxWidth, maxHeight) {
     const widthScale = originalWidth > 0 ? maxWidth / originalWidth : 1;
     const heightScale = originalHeight > 0 ? maxHeight / originalHeight : 1;
     return Math.min(widthScale, heightScale);
 }
 
-export function renderMap(layout, filters) {
+function renderMap(layout, filters) {
 
     const image =
         document.getElementById('mapImage');
@@ -73,3 +71,7 @@ export function renderMap(layout, filters) {
         onLoad();
     }
 }
+
+globalThis.OdysseyMaps = globalThis.OdysseyMaps || {};
+Object.assign(globalThis.OdysseyMaps, { calculateRenderScale, renderMap });
+})();
