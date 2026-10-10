@@ -2,9 +2,20 @@
 
 ## Run Locally
 
-The project can be used without a web server. Copy the complete project folder, including `js/offlineData.js`, to the local PC and open `browser.html` in a browser. The viewer and its map images work from the same folder.
+You can open the site directly from your PC without running a web server. To prepare a fresh copy after changing map data:
 
-When map JSON files are added or changed, run `npm run build` before copying or opening the project so `js/offlineData.js` is regenerated from the JSON source files.
+1. Install Node.js if it is not already installed. npm is included with Node.js. In a terminal, check with `node --version` and `npm --version`.
+2. Open a terminal in the project folder, the folder containing `package.json`. In VS Code, use **Terminal > New Terminal**; the terminal should start in the workspace folder.
+3. Run:
+
+  ```powershell
+  npm run build
+  ```
+
+  This regenerates `js/offlineData.js` from the JSON files in `maps` and creates a `dist` folder containing the files needed to run the site. No `npm install` step is needed.
+4. Copy the `dist` folder to the local PC. Open `dist/browser.html` in a browser. Keep the folder structure intact so the CSS, scripts, images, and maps remain beside the HTML files.
+
+Run the build again whenever you add or change map JSON files. The build replaces the existing `dist` folder.
 
 ## Background
  
